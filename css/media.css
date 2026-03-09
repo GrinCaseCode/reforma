@@ -2590,6 +2590,7 @@
         padding-top: 150px;
         padding-bottom: 21px;
         border-radius: 12px;
+        min-height: initial;
     }
     .billbord__title {
         font-size: 24px;
@@ -2891,6 +2892,10 @@
     }
     .consultation__form .consultation__title {
         margin-bottom: 18px;
+        max-width: 200px;
+    }
+    .fancybox-slide {
+        padding: 15px;
     }
     .consultation__line .item-form {
         margin-bottom: 8px;
@@ -3450,7 +3455,11 @@
         margin-top: 10px;
     }
     .footer__content {
+        padding-top: 10px;
         display: none;
+    }
+    .footer__nav li {
+        margin-bottom: 15px;
     }
     .footer__title {
         font-size: 20px;
