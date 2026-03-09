@@ -3574,6 +3574,17 @@
     .body--menu {
         overflow: hidden;
     }
+    .menu-overlay {
+        top: 147px;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        height: 100vh;
+        background: rgba(0, 0, 0, 0.7);
+        position: fixed;
+        z-index: 300;
+        display: none;
+    }
 }
 
 /* Small Devices, Tablets */
