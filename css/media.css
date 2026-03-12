@@ -3222,10 +3222,11 @@
     }
     .btn-sign-wrap {
         width: auto;
-        position: static;
+        right: 0;
+        top: 8px;
+        position: absolute;
     }
     .btn-sign {
-        top: 8px;
         font-size: 14px;
         gap: 10px;
         height: auto;
@@ -3233,12 +3234,10 @@
         padding: 0;
         line-height: 140%;
         color: #fff;
-        right: 0;
         width: auto;
         text-transform: none;
         left: auto;
         background: transparent;
-        position: absolute;
     }
     .btn-sign svg {
         width: 24px;
@@ -4249,13 +4248,14 @@
     }
     .page-service {
         padding-top: 135px;
+        padding-bottom: 50px;
     }
     .page-service__content {
         padding: 20px 15px;
         border-radius: 16px;
     }
     .page-service .page-service__content .btn-main {
-        margin-top: 15px;
+        margin-top: 10px;
     }
     .page-service__content img {
         margin-top: 20px;
@@ -4265,6 +4265,9 @@
     }
     .reception__title {
         font-size: 23px;
+    }
+    .etaps {
+        padding-top: 30px;
     }
     .video-page__descr {
         width: 148px;
@@ -4278,7 +4281,11 @@
         height: 60px;
     }
     .unit-etap__head {
+        margin-bottom: 15px;
         display: block;
+    }
+    .item-etap_image {
+        height: 153px;
     }
     .unit-etap__count {
         font-size: 110px;
@@ -4333,6 +4340,7 @@
     }
     .steps {
         padding: 50px 0;
+        padding-bottom: 40px;
     }
     .steps .title-section {
         margin-bottom: 25px;
