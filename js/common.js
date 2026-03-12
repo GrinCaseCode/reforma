@@ -290,6 +290,7 @@ $(document).ready(function () {
 		var selectTab = $(this).attr("href");
 		$(selectTab).fadeIn(200);
 		$(this).parents("section").find(".tab-pane-page").find(".slider-three").slick('setPosition');
+		$(this).parents("section").find(".tab-pane-page").find(".slider-four").slick('setPosition');
 		$(this).parents("section").find(".tab-pane-page").find(".slider-for-portfolio").slick('setPosition');
 		$(this).parents("section").find(".tab-pane-page").find(".slider-nav-portfolio").slick('setPosition');
 var slider = $(selectTab).find('.slider-vertical');
@@ -346,6 +347,45 @@ slider.slick({
 	});
 
 	$(".input-phone").mask("+7 (999) 999-99-99");
+
+	//animation steps
+    let started = false;
+
+    function isInViewport(element) {
+        const elementTop = $(element).offset().top;
+        const elementBottom = elementTop + $(element).outerHeight();
+
+        const viewportTop = $(window).scrollTop();
+        const viewportBottom = viewportTop + $(window).height();
+
+        return elementBottom > viewportTop && elementTop < viewportBottom;
+    }
+
+    function startSteps() {
+        const wrapper = $('.steps__wrapper');
+        const items = wrapper.find('.item-step');
+        const lastIndex = items.length - 1;
+
+        items.each(function (index) {
+            setTimeout(() => {
+                $(this).addClass('active');
+
+                if (index === lastIndex) {
+                    setTimeout(() => {
+						wrapper.addClass('complited');
+					}, 1000);
+                }
+
+            }, index * 2000);
+        });
+    }
+
+    $(window).on('scroll', function () {
+        if (!started && isInViewport('.steps__wrapper')) {
+            started = true;
+            startSteps();
+        }
+    });
 
 	//Попап менеджер FancyBox
 	$(".fancybox").fancybox({

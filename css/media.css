@@ -562,11 +562,15 @@
     .tab-container ul {
         padding-bottom: 26px;
     }
+    .advantages-service__main ul li,
+    .page-service__content ul li,
     .page-category__content ul li,
     .tab-container ul li {
         padding-left: 46px;
         margin-bottom: 28px;
     }
+    .advantages-service__main ul li::before,
+    .page-service__content ul li::before,
     .page-category__content ul li::before,
     .tab-container ul li::before {
         width: 28px;
@@ -867,6 +871,7 @@
     .slider-doctors__image {
         height: 405px;
     }
+    .page-service__content .btn-main,
     .page-category__content .btn-main {
         padding: 20px 29px;
         margin-top: 34px;
@@ -901,6 +906,120 @@
     }
     .slider-vertical__item {
         height: 360px;
+    }
+    .reception__item {
+        padding: 33px;
+        margin-bottom: 15px;
+        gap: 20px;
+        max-width: 540px;
+    }
+    .reception__info {
+        padding-top: 30px;
+        padding-left: 38px;
+        padding-right: 35px;
+    }
+    .video-page__descr {
+        width: 283px;
+        font-size: 17px;
+        padding: 19px;
+        top: 23px;
+        left: -77px;
+    }
+    .item-etap {
+        width: 270px;
+        font-size: 17px;
+        padding: 10px;
+        padding-bottom: 15px;
+    }
+    .total-etap__title {
+        font-size: 29px;
+    }
+    .total-etap__title span {
+        font-size: 18px;
+    }
+    .total-etap {
+        width: 270px;
+    }
+    .unit-etap__info {
+        padding: 33px 75px;
+        font-size: 27px;
+        margin-top: 30px;
+    }
+    .table-main th, .table-main td {
+        padding: 14px 18px;
+        font-size: 18px;
+    }
+    .table-main {
+        max-width: 1270px;
+    }
+    .item-selection__descr {
+        font-size: 14px;
+    }
+    .feature.feature--main {
+        font-size: 18px;
+    }
+    .advantages-service__content {
+        max-width: 600px;
+    }
+    .advantages-service__descr {
+        width: 292px;
+        padding: 20px;
+        font-size: 14px;
+        top: 29px;
+        left: -193px;
+    }
+    .installment__main {
+        padding: 43px 45px;
+        font-size: 19px;
+    }
+    .installment__form {
+        max-width: 645px;
+    }
+    .installment__bottom-info p {
+        gap: 16px;
+        margin-bottom: 27px;
+    }
+    .installment__text {
+        max-width: 498px;
+        margin-bottom: 55px;
+    }
+    .installment__main .title-section {
+        max-width: 724px;
+        margin-bottom: 36px;
+    }
+    .installment__image img {
+        width: 366px;
+    }
+    .installment__image::before {
+        width: 256px;
+        height: 222px;
+        top: 96px;
+        left: -146px;
+    }
+    .installment__partners {
+        padding: 28px;
+        width: 282px;
+    }
+    .reviews-service .title-section {
+        margin-bottom: 30px;
+    }
+    .reviews-service .tab-container-page {
+        padding-top: 27px;
+    }
+    .reviews-service {
+        padding: 65px 0;
+    }
+    .selection {
+        padding: 70px 0;
+    }
+    .item-review__text {
+        font-size: 14px;
+    }
+    .item-review__text p {
+        margin-top: 14px;
+    }
+    .installment__form .item-form input {
+        height: 62px;
     }
 }
 
@@ -1464,11 +1583,15 @@
     .tab-container ul {
         padding-bottom: 23px;
     }
+    .advantages-service__main ul li,
+    .page-service__content ul li,
     .page-category__content ul li,
     .tab-container ul li {
         padding-left: 40px;
         margin-bottom: 24px;
     }
+    .advantages-service__main ul li::before,
+    .page-service__content ul li::before,
     .page-category__content ul li::before,
     .tab-container ul li::before {
         width: 24px;
@@ -1762,10 +1885,178 @@
     .slider-vertical__item {
         height: 325px;
     }
+    .page-service__content ul li {
+        margin-bottom: 17px;
+    }
+    .page-service__content .btn-main {
+        max-width: 393px;
+    }
+    .reception__item {
+        padding: 24px;
+        margin-bottom: 13px;
+        gap: 16px;
+        max-width: 458px;
+    }
+    .reception__icon {
+        width: 44px;
+        height: 44px;
+    }
+    .reception__title {
+        font-size: 31px;
+        margin-bottom: 21px;
+    }
+    .reception__info {
+        padding-top: 20px;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    .video-page__descr {
+        width: 251px;
+        font-size: 15px;
+        padding: 16px;
+        top: 21px;
+        left: -82px;
+    }
+    .video-page::after {
+        width: 100px;
+        height: 100px;
+    }
+    .unit-etap__head {
+        gap: 40px;
+    }
+    .item-etap__badge {
+        padding: 7px;
+        font-size: 11px;
+    }
+    .item-etap {
+        width: 225px;
+        font-size: 15px;
+        padding: 8px;
+        padding-bottom: 15px;
+    }
+    .item-etap__icon::before {
+        width: 45px;
+        height: 45px;
+    }
+    .total-etap__descr {
+        font-size: 13px;
+        margin-top: 4px;
+    }
+    .total-etap__title {
+        font-size: 22px;
+    }
+    .total-etap__title span {
+        font-size: 16px;
+    }
+    .total-etap {
+        width: 225px;
+    }
+    .unit-etap__info {
+        padding: 29px 48px;
+        font-size: 23px;
+        margin-top: 28px;
+    }
+    .unit-etap+.unit-etap {
+        margin-top: 36px;
+    }
+    .unit-etap__count {
+        font-size: 128px;
+    }
+    .unit-etap__count span {
+        font-size: 29px;
+    }
+    .unit-price .price-main {
+        font-size: 26px;
+    }
+    .unit-price {
+        height: 312px;
+        padding: 21px;
+    }
+    .info-service .title-section {
+        margin-bottom: 63px;
+    }
+    .info-service .btn-main {
+        padding: 19px 45px;
+        margin-top: 28px;
+    }
+    .steps {
+        padding: 60px 0;
+    }
+    .info-service {
+        padding: 70px 0;
+    }
+    .pricelist,
+    .info-service {
+        margin: 0 15px;
+    }
+    .installment {
+        padding-top: 70px;
+    }
+    .reviews-service .title-section {
+        margin-bottom: 25px;
+    }
+    .reviews-service .tab-container-page {
+        padding-top: 20px;
+    }
+    .advantages-service__content .title-middle {
+        margin-bottom: 28px;
+    }
+    .advantages-service__content {
+        max-width: 500px;
+    }
+    .advantages-service__descr {
+        width: 248px;
+        padding: 17px;
+        font-size: 12px;
+        top: 29px;
+        left: -161px;
+    }
+    .feature.feature--main {
+        font-size: 16px;
+    }
+    .feature {
+        margin-bottom: 15px;
+    }
+    .item-selection__badge {
+        border-radius: 16px 16px 0 16px;
+        padding: 10px;
+        gap: 9px;
+        font-size: 12px;
+        max-width: 244px;
+    }
+    .pricelist__button .btn-main {
+        padding: 20px 47px;
+    }
+    .table-main th, .table-main td {
+        padding: 12px 16px;
+        font-size: 16px;
+    }
+    .table-main {
+        max-width: 1175px;
+    }
+    .item-step__count {
+        font-size: 120px;
+    }
+    .item-step__count span {
+        font-size: 27px;
+    }
+    .item-step__head {
+        width: 148px;
+    }
+    .item-step {
+        width: 715px;
+        margin-right: -574px;
+        transform: translateX(809px);
+    }
+    .item-step__content ul li {
+        margin-bottom: 25px;
+    }
+    .item-etap_image {
+        height: 190px;
+    }
 }
 
 @media only screen and (max-width : 1420px) {
-
     body {
         font-size: 12px;
     }
@@ -2324,11 +2615,15 @@
     .tab-container ul {
         padding-bottom: 20px;
     }
+    .advantages-service__main ul li,
+    .page-service__content ul li,
     .page-category__content ul li,
     .tab-container ul li {
         padding-left: 35px;
         margin-bottom: 21px;
     }
+    .advantages-service__main ul li::before,
+    .page-service__content ul li::before,
     .page-category__content ul li::before,
     .tab-container ul li::before {
         width: 21px;
@@ -2629,6 +2924,7 @@
     .about-category .item-team__image {
         height: 405px;
     }
+    .page-service__content .btn-main,
     .page-category__content .btn-main {
         padding: 20px 26px;
         margin-top: 30px;
@@ -2638,12 +2934,119 @@
         max-width: 460px;
     }
     .page-category {
-        padding-top: 86px;
         padding-bottom: 65px;
     }
     .breadcrumbs {
         font-size: 12px;
         padding: 22px 0;
+    }
+    .page-service__content ul li {
+        margin-bottom: 15px;
+    }
+    .page-service__content .title-section {
+        margin-bottom: 15px;
+    }
+    .page-service {
+        padding-bottom: 60px;
+    }
+    .reception__item {
+        padding: 18px;
+        margin-bottom: 11px;
+        gap: 13px;
+        max-width: 405px;
+    }
+    .reception__title {
+        font-size: 27px;
+        margin-bottom: 18px;
+    }
+    .reception__info {
+        padding-top: 16px;
+        padding-left: 18px;
+        padding-right: 20px;
+    }
+    .video-page__descr {
+        width: 219px;
+        font-size: 13px;
+        padding: 13px;
+        top: 19px;
+        left: -90px;
+    }
+    .video-page::after {
+        width: 80px;
+        height: 80px;
+    }
+    .item-etap {
+        width: 205px;
+        font-size: 13px;
+        padding: 8px;
+        padding-bottom: 15px;
+    }
+    .item-etap__icon::before {
+        width: 40px;
+        height: 40px;
+    }
+    .total-etap__descr {
+        font-size: 11px;
+    }
+    .unit-etap__info {
+        padding: 27px 25px;
+        font-size: 21px;
+        margin-top: 25px;
+    }
+    .info-service .title-section {
+        margin-bottom: 40px;
+    }
+    .unit-price {
+        height: 282px;
+        padding: 18px;
+    }
+    .item-selection .btn-main {
+        font-size: 14px;
+    }
+    .installment__partners-logo {
+        margin-top: 10px;
+        height: 39px;
+    }
+    .installment__partners {
+        padding: 25px;
+        width: 262px;
+    }
+    .installment__main {
+        padding: 38px 34px;
+        font-size: 18px;
+    }
+    .installment__main .title-section {
+        max-width: 637px;
+        margin-bottom: 23px;
+    }
+    .installment__form .item-form input {
+        height: 44px;
+    }
+    .installment__form {
+        max-width: 580px;
+    }
+    .installment__bottom-info p img {
+        width: 25px;
+    }
+    .installment__bottom-info p {
+        gap: 12px;
+        margin-bottom: 20px;
+    }
+    .installment__image img {
+        width: 300px;
+    }
+    .installment__image {
+        right: 196px;
+    }
+    .installment__image::before {
+        width: 232px;
+        height: 187px;
+        top: 90px;
+        left: -134px;
+    }
+    .installment__text {
+        max-width: 463px;
+        margin-bottom: 42px;
     }
 }
 
@@ -2701,6 +3104,27 @@
     .slider-vertical__item {
         height: 199px;
         margin-bottom: 12px;
+    }
+    .video-page__descr {
+        width: 200px;
+        font-size: 12px;
+        padding: 11px;
+        top: 5px;
+        left: -33px;
+    }
+    .item-step {
+        width: 615px;
+        margin-right: -542px;
+        transform: translateX(680px);
+    }
+    .feature.feature--main {
+        font-size: 14px;
+    }
+    .item-review__text {
+        font-size: 13px;
+    }
+    .item-review__text p {
+        margin-top: 10px;
     }
 }
 
@@ -3328,12 +3752,16 @@
         margin-bottom: 24px;
         line-height: 140%;
     }
+    .advantages-service__main ul li::before,
+    .page-service__content ul li::before,
     .page-category__content ul li::before,
     .tab-container ul li::before {
         width: 28px;
         height: 28px;
         background-size: 24px auto;
     }
+    .advantages-service__main ul li,
+    .page-service__content ul li,
     .page-category__content ul li,
     .tab-container ul li {
         padding-left: 38px;
@@ -3720,6 +4148,7 @@
     .page-category__content .title-section {
         margin-bottom: 19px;
     }
+    .page-service__content .btn-main,
     .page-category__content .btn-main {
         padding: 13px 17px;
         margin-top: 14px;
@@ -3817,6 +4246,216 @@
     }
     .portfolio+.team {
         margin-top: 45px;
+    }
+    .page-service {
+        padding-top: 135px;
+    }
+    .page-service__content {
+        padding: 20px 15px;
+        border-radius: 16px;
+    }
+    .page-service .page-service__content .btn-main {
+        margin-top: 15px;
+    }
+    .page-service__content img {
+        margin-top: 20px;
+    }
+    .reception__info {
+        padding: 10px;
+    }
+    .reception__title {
+        font-size: 23px;
+    }
+    .video-page__descr {
+        width: 148px;
+        font-size: 10px;
+        padding: 9px;
+        top: -15px;
+        left: -8px;
+    }
+    .video-page::after {
+        width: 60px;
+        height: 60px;
+    }
+    .unit-etap__head {
+        display: block;
+    }
+    .unit-etap__count {
+        font-size: 110px;
+        gap: 15px;
+    }
+    .unit-etap__count span {
+        font-size: 23px;
+        writing-mode: initial;
+    }
+    .etaps__wrap {
+        gap: 10px 0;
+        flex-wrap: wrap;
+    }
+    .item-etap {
+        width: 49%;
+        font-size: 12px;
+        padding: 6px;
+        padding-bottom: 12px;
+    }
+    .item-etap__icon {
+        display: none;
+    }
+    .total-etap {
+        width: 100%;
+    }
+    .total-etap__bottom {
+        padding-top: 35px;
+    }
+    .unit-etap__info {
+        padding: 23px 15px;
+        font-size: 16px;
+        margin-top: 22px;
+    }
+    .info-service .title-section {
+        margin-bottom: 23px;
+    }
+    .info-service__content {
+        margin-bottom: 30px;
+    }
+    .unit-price {
+        min-height: 200px;
+        height: auto;
+    }
+    .info-service .btn-main {
+        padding: 19px 20px;
+    }
+    .pricelist, .info-service {
+        margin: 0 10px;
+    }
+    .info-service {
+        padding: 25px 0;
+    }
+    .steps {
+        padding: 50px 0;
+    }
+    .steps .title-section {
+        margin-bottom: 25px;
+    }
+    .steps__wrapper {
+        display: block;
+    }
+    .item-step {
+        width: 100%;
+        display: block;
+        margin: 0;
+        margin-bottom: 20px;
+    }
+    .item-step__content {
+        padding: 20px 15px;
+    }
+    .item-step__content ul li {
+        margin-bottom: 12px;
+    }
+    .item-step__count {
+        font-size: 110px;
+        gap: 15px;
+    }
+    .item-step__count span {
+        font-size: 23px;
+        writing-mode: initial;
+    }
+    .time-info {
+        gap: 13px;
+    }
+    .steps__wrapper.complited .item-step:hover~.item-step {
+        transform: none;
+    }
+    .pricelist .title-section {
+        margin-bottom: 25px;
+    }
+    .pricelist {
+        padding: 25px 0;
+    }
+    .table-main th, .table-main td {
+        padding: 8px 5px;
+        font-size: 13px;
+    }
+    .pricelist__button .btn-main {
+        padding: 18px 20px;
+    }
+    .selection {
+        padding: 50px 0;
+    }
+    .selection__head {
+        margin-bottom: 25px;
+    }
+    .selection__head .title-min {
+        margin-top: 20px;
+    }
+    .selection .slider-three .slick-track {
+        align-items: flex-start;
+    }
+    .item-selection .btn-main {
+        font-size: 13px;
+        width: 100%;
+        padding: 0 5px;
+    }
+    .advantages-service {
+        padding: 50px 0;
+    }
+    .advantages-service__descr {
+        width: 139px;
+        padding: 9px;
+        font-size: 10px;
+        top: -3px;
+        left: -17px;
+    }
+    .advantages-service__main {
+        padding: 20px;
+        border-radius: 16px;
+    }
+    .installment__partners {
+        width: 100%;
+        padding: 15px;
+        border-radius: 16px;
+        margin-top: 20px;
+        position: relative;
+    }
+    .installment__main {
+        padding: 25px 15px;
+        font-size: 14px;
+    }
+    .installment__bottom {
+        display: block;
+    }
+    .installment__text ul {
+        padding-left: 17px;
+    }
+    .installment__image {
+        display: none;
+    }
+    .installment__form .item-form input {
+        height: 51px;
+    }
+    .installment__bottom-info {
+        margin-bottom: 25px;
+    }
+    .installment__text {
+        margin-bottom: 25px;
+    }
+    .installment__bottom-info p img {
+        width: 21px;
+    }
+    .installment__bottom-info p {
+        gap: 5px;
+    }
+    .reviews-service {
+        padding: 50px 0;
+    }
+    .item-review__text {
+        font-size: 14px;
+    }
+    .item-review__text p {
+        margin-top: 14px;
+    }
+    .installment {
+        padding-top: 40px;
     }
 }
 
@@ -3970,6 +4609,9 @@
     .page-category__content li a:hover {
         border-color: transparent;
     }
+    .video-page:hover::after {
+        transform: scale(1.1);
+    }
 }
 
 /*mobile hovers*/
@@ -4058,5 +4700,8 @@
     .page-category__content p a:active,
     .page-category__content li a:active {
         border-color: transparent;
+    }
+    .video-page:active::after {
+        transform: scale(1.1);
     }
 }
