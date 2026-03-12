@@ -4465,6 +4465,9 @@
     .installment {
         padding-top: 40px;
     }
+    .reviews-service .tab-container-page {
+        padding-top: 10px;
+    }
 }
 
 /* Small Devices, Tablets */
