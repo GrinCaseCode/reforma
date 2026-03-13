@@ -4950,8 +4950,8 @@
 /*hovers*/
 @media (hover: hover) {
     .btn-sign:hover {
-        gap: 24px;
-        width: 141px;
+        gap: 1.25vw;
+        width: 7.344vw;
     }
     .btn-main:hover {
         background: #758c40;
@@ -5056,10 +5056,6 @@
 
 /*mobile hovers*/
 @media (hover: none) {
-    .btn-sign:active {
-        gap: 24px;
-        width: 141px;
-    }
     .btn-main:active {
         background: #758c40;
     }
