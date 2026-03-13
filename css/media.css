@@ -3266,7 +3266,7 @@
         margin-left: 40px;
     }
     .legal-information .slider-two {
-        margin: 0 40px;
+        margin: 25px 40px;
     }
     .tabs.tabs--secondary li a {
         padding: 16px;
@@ -4880,25 +4880,27 @@
         width: 60px;
         height: 60px;
     }
+    .tabs.tabs--secondary li {
+        flex: none;
+        width: 100%;
+    }
+    .tabs.tabs--secondary li a {
+        text-align: center;
+    }
+    .page-about,
+    .page-contacts {
+        background-position: center top 110px;
+    }
 }
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {}
 
-/* Extra Small Devices, Phones */
-@media only screen and (max-width : 480px) {}
 
-/* Custom, iPhone Retina */
-@media only screen and (max-width : 320px) {}
 
 
 /*==========  Mobile First Method  ==========*/
 
-/* Custom, iPhone Retina */
-@media only screen and (min-width : 320px) {}
-
-/* Extra Small Devices, Phones */
-@media only screen and (min-width : 480px) {}
 
 /* Small Devices, Tablets */
 @media only screen and (min-width : 768px) {}
