@@ -16,6 +16,15 @@ $(document).ready(function () {
 		$menu.removeClass("fixed").addClass("default");
 	}
 
+
+	$('.video-main').click(function() {
+		var videoURL = $(this).find("iframe").prop('src');
+		videoURL += "&autoplay=1";
+		$(this).find("iframe").prop('src',videoURL);
+		$(this).addClass("active");
+	  });
+
+	  
 	//billbord items animation
 	$(".billbord__bottom").addClass("active");
 	setTimeout(() => {
@@ -131,6 +140,27 @@ $(document).ready(function () {
 			},
 			{
 				breakpoint: 768,
+				settings: {
+					slidesToShow: 1,
+					arrows: false,
+					dots: true,
+				}
+			}
+		]
+	});
+
+	$('.slider-two').slick({
+		arrows: true,
+		dots: false,
+		infinite: true,
+		touchThreshold: 1000,
+		slidesToShow: 2,
+		slidesToScroll: 1,
+		prevArrow: '<div class="slick-prev slick-arrow"><i class="far fa-long-arrow-left"></i></div>',
+		nextArrow: '<div class="slick-next slick-arrow"><i class="far fa-long-arrow-right"></i></div>',
+		responsive: [
+			{
+				breakpoint: 992,
 				settings: {
 					slidesToShow: 1,
 					arrows: false,
