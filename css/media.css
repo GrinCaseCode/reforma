@@ -5113,7 +5113,16 @@
         left: auto;
     }
     .page-stomatology .video-stomatology {
-        margin-top: 20px;
+        margin-top: 25px;
+    }
+    .page-stomatology .tags {
+        margin-top: 33px;
+    }
+    .page-stomatology {
+        padding-bottom: 40px;
+    }
+    .services-stomatology .title-section {
+        margin-bottom: 25px;
     }
     .page-stomatology .slider-three {
         margin-top: 30px;
@@ -5124,6 +5133,27 @@
     .page-portfolio .tabs-page a {
         font-size: 14px;
         padding: 10px 5px;
+    }
+    .slider-nav-tabs {
+        padding: 0 45px;
+    }
+    .about-stomatology .title-section {
+        margin-bottom: 23px;
+    }
+    .slider-for-tabs {
+        margin-bottom: 30px;
+    }
+    .documents-wrapper {
+        padding: 25px 20px;
+    }
+    .text-main h3 {
+        font-size: 20px;
+    }
+    .about-stomatology .text-main, .page-stomatology~.equipment, .services-stomatology {
+        padding-top: 40px;
+    }
+    .about-stomatology {
+        padding-bottom: 35px;
     }
 }
 
