@@ -562,6 +562,7 @@
     .tab-container ul {
         padding-bottom: 26px;
     }
+    .page-stomatology__content ul li,
     .advantages-service__main ul li,
     .page-service__content ul li,
     .page-category__content ul li,
@@ -569,6 +570,7 @@
         padding-left: 46px;
         margin-bottom: 28px;
     }
+    .page-stomatology__content ul li::before,
     .advantages-service__main ul li::before,
     .page-service__content ul li::before,
     .page-category__content ul li::before,
@@ -1096,6 +1098,69 @@
         margin-top: 33px;
         left: 108px;
         font-size: 14px;
+    }
+
+    .sidebar-nav__title {
+        font-size: 18px;
+        padding: 18px 28px;
+    }
+    .pricelist-content {
+        margin: 0 15px;
+    }
+    .item-card.item-card--full .item-card__image {
+        height: 345px;
+    }
+    .pricelist-text {
+        padding: 30px 39px;
+        margin: 62px 0;
+    }
+    .pricelist-text h3 {
+        font-size: 22px;
+    }
+    .page-stomatology__content {
+        max-width: 680px;
+    }
+    .location-stomatology {
+        font-size: 21px;
+        gap: 17px;
+        margin-bottom: 33px;
+    }
+    .location-stomatology::before {
+        width: 28px;
+        height: 28px;
+    }
+    .tags a {
+        padding: 14px 17px;
+        font-size: 18px;
+    }
+    .page-stomatology .tags {
+        margin-top: 74px;
+    }
+    .tags {
+        gap: 10px;
+    }
+    .about-stomatology .text-main, .page-stomatology~.equipment, .services-stomatology {
+        padding-top: 65px;
+    }
+    .slider-nav-tabs__item {
+        padding: 11px 8px;
+    }
+    .item-document-text {
+        font-size: 14px;
+    }
+    .documents-wrapper {
+        padding: 28px 60px;
+        padding-bottom: 33px;
+    }
+    .text-main {
+        font-size: 18px;
+    }
+    .text-main h3 {
+        font-size: 29px;
+        margin-bottom: 21px;
+    }
+    .about-stomatology {
+        padding-bottom: 65px;
     }
 }
 
@@ -1659,6 +1724,7 @@
     .tab-container ul {
         padding-bottom: 23px;
     }
+    .page-stomatology__content ul li,
     .advantages-service__main ul li,
     .page-service__content ul li,
     .page-category__content ul li,
@@ -1666,6 +1732,7 @@
         padding-left: 40px;
         margin-bottom: 24px;
     }
+    .page-stomatology__content ul li::before,
     .advantages-service__main ul li::before,
     .page-service__content ul li::before,
     .page-category__content ul li::before,
@@ -2217,6 +2284,69 @@
     }
     .lead-info {
         left: 125px;
+    }
+    .sidebar-nav__title {
+        font-size: 16px;
+        padding: 16px 25px;
+    }
+    .item-card.item-card--full .item-card__image {
+        height: 310px;
+    }
+    .item-card.item-card--full {
+        margin: 45px 0;
+    }
+    .pricelist-text h3 {
+        font-size: 19px;
+    }
+    .page-stomatology__content {
+        max-width: 595px;
+    }
+    .location-stomatology {
+        font-size: 18px;
+        gap: 13px;
+        margin-bottom: 23px;
+    }
+    .location-stomatology::before {
+        width: 25px;
+        height: 25px;
+    }
+    .video-stomatology__btn {
+        padding: 9px;
+        gap: 15px;
+    }
+    .video-stomatology__btn::after {
+        width: 38px;
+        height: 38px;
+    }
+    .tags a {
+        padding: 12px 14px;
+        font-size: 16px;
+        border-radius: 14px;
+    }
+    .tags {
+        gap: 6px;
+    }
+    .page-stomatology .tags {
+        margin-top: 50px;
+    }
+    .item-document-text {
+        font-size: 12px;
+    }
+    .about-stomatology .text-main, .page-stomatology~.equipment, .services-stomatology {
+        padding-top: 50px;
+    }
+    .text-main {
+        font-size: 16px;
+    }
+    .text-main h3 {
+        font-size: 26px;
+        margin-bottom: 18px;
+    }
+    .page-stomatology__content .title-section {
+        max-width: 435px;
+    }
+    .team.team--light {
+        padding: 60px 0;
     }
 }
 
@@ -2779,6 +2909,7 @@
     .tab-container ul {
         padding-bottom: 20px;
     }
+    .page-stomatology__content ul li,
     .advantages-service__main ul li,
     .page-service__content ul li,
     .page-category__content ul li,
@@ -2786,6 +2917,7 @@
         padding-left: 35px;
         margin-bottom: 21px;
     }
+    .page-stomatology__content ul li::before,
     .advantages-service__main ul li::before,
     .page-service__content ul li::before,
     .page-category__content ul li::before,
@@ -3294,6 +3426,55 @@
         left: 145px;
         margin-top: 25px;
     }
+    .sidebar-nav__title {
+        font-size: 15px;
+        padding: 14px 22px;
+    }
+    .pricelist-text h3 {
+        font-size: 18px;
+    }
+    .video-stomatology__btn::after {
+        width: 34px;
+        height: 34px;
+    }
+    .location-stomatology {
+        font-size: 16px;
+        gap: 11px;
+        margin-bottom: 20px;
+    }
+    .page-stomatology__content {
+        max-width: 510px;
+    }
+    .tags a {
+        padding: 10px 12px;
+        font-size: 14px;
+        border-radius: 12px;
+    }
+    .page-stomatology .slider-three {
+        margin-top: 55px;
+    }
+    .documents-wrapper {
+        padding: 26px 44px;
+        padding-bottom: 30px;
+    }
+    .item-document-title {
+        margin-top: 11px;
+        margin-bottom: 8px;
+    }
+    .text-main {
+        font-size: 14px;
+    }
+    .text-main h3 {
+        font-size: 23px;
+        margin-bottom: 15px;
+    }
+    .about-stomatology {
+        padding-bottom: 48px;
+    }
+    .page-stomatology__content .title-section {
+        max-width: 381px;
+        margin-bottom: 17px;
+    }
 }
 
 /* Large Devices, Wide Screens */
@@ -3407,6 +3588,9 @@
     }
     .video-main {
         width: 700px;
+    }
+    .page-about .col-lg-5 {
+        align-self: flex-end;
     }
 }
 
@@ -4033,6 +4217,7 @@
         margin-bottom: 24px;
         line-height: 140%;
     }
+    .page-stomatology__content ul li::before,
     .advantages-service__main ul li::before,
     .page-service__content ul li::before,
     .page-category__content ul li::before,
@@ -4041,6 +4226,7 @@
         height: 28px;
         background-size: 24px auto;
     }
+    .page-stomatology__content ul li,
     .advantages-service__main ul li,
     .page-service__content ul li,
     .page-category__content ul li,
@@ -4750,6 +4936,9 @@
     .reviews-service .tab-container-page {
         padding-top: 10px;
     }
+    .page-portfolio,
+    .page-stomatology,
+    .page-prices,
     .page-about,
     .page-contacts {
         padding-top: 140px;
@@ -4887,9 +5076,54 @@
     .tabs.tabs--secondary li a {
         text-align: center;
     }
+    .page-portfolio,
+    .page-stomatology,
     .page-about,
     .page-contacts {
         background-position: center top 110px;
+    }
+    .pricelist-content {
+        margin: 0 5px;
+        padding-top: 25px;
+        padding-bottom: 40px;
+    }
+    .item-card.item-card--full {
+        margin: 35px 0;
+        display: block;
+    }
+    .item-card.item-card--full .item-card__content {
+        padding: 12px;
+        margin: 0 9px;
+        margin-top: -101px;
+        min-height: initial;
+    }
+    .pricelist-text {
+        padding: 20px 15px;
+        margin: 30px 0;
+    }
+    .pricelist-text h3 {
+        font-size: 16px;
+        margin-bottom: 15px;
+    }
+    .item-card.item-card--full .item-card__image {
+        height: 329px;
+    }
+    .item-card.item-card--full .item-card__sale {
+        right: 9px;
+        left: auto;
+    }
+    .page-stomatology .video-stomatology {
+        margin-top: 20px;
+    }
+    .page-stomatology .slider-three {
+        margin-top: 30px;
+    }
+    .team.team--light {
+        padding: 50px 0;
+    }
+    .page-portfolio .tabs-page a {
+        font-size: 14px;
+        padding: 10px 5px;
     }
 }
 
@@ -5052,6 +5286,18 @@
         color: #000;
         background: #92af50;
     }
+    .sidebar-nav__dropdown li a:hover {
+        color: #92af50;
+    }
+    .sidebar-nav__title:hover {
+        background: #596243;
+    }
+    .tags a:hover {
+        background: #92af50;
+    }
+    .slider-nav-tabs__item:hover {
+        background: #92af50;
+    }
 }
 
 /*mobile hovers*/
@@ -5153,6 +5399,18 @@
     }
     .tabs.tabs--secondary li a:active {
         color: #000;
+        background: #92af50;
+    }
+    .sidebar-nav__dropdown li a:active {
+        color: #92af50;
+    }
+    .sidebar-nav__title:active {
+        background: #596243;
+    }
+    .tags a:active {
+        background: #92af50;
+    }
+    .slider-nav-tabs__item:active {
         background: #92af50;
     }
 }

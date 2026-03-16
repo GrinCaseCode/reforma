@@ -302,6 +302,47 @@ $(document).ready(function () {
 		nextArrow: '<div class="slick-next slick-arrow"><i class="far fa-long-arrow-right"></i></div>',
 	});
 
+		$('.unit-interior').each(function () {
+
+		const $this = $(this);
+		const $sliderFor = $this.find('.slider-for-tabs');
+		const $sliderNav = $this.find('.slider-nav-tabs');
+
+		$sliderFor.slick({
+			arrows: false,
+			dots: false,
+			infinite: true,
+			touchThreshold: 1000,
+			swipe: false,
+			asNavFor: $sliderNav,
+			slidesToShow: 1,
+			slidesToScroll: 1,
+		});
+
+		$sliderNav.slick({
+			arrows: true,
+			dots: false,
+			infinite: true,
+			touchThreshold: 1000,
+			focusOnSelect: true,
+			swipe: false,
+			asNavFor: $sliderFor,
+			slidesToShow: 3,
+			slidesToScroll: 1,
+			prevArrow: '<div class="slick-prev slick-arrow"><i class="far fa-chevron-left"></i></div>',
+			nextArrow: '<div class="slick-next slick-arrow"><i class="far fa-chevron-right"></i></div>',
+			responsive: [
+				{
+					breakpoint: 992,
+					settings: {
+						slidesToShow: 2,
+					}
+				}
+			]
+		});
+
+	});
+
 
 	$('.tabs li a').click(function (event) {
 		event.preventDefault();
@@ -341,6 +382,14 @@ slider.slick({
 	cssEase: 'linear',
 	slidesToShow: 2
 });
+	});
+
+	//sidebar nav
+	$(".sidebar-nav__title").click(function () {
+		$(this).parent().toggleClass("active");
+		$(this).siblings().slideToggle(200);
+		$(this).parent().siblings(".sidebar-nav__item").removeClass("active");
+		$(this).parent().siblings(".sidebar-nav__item").find(".sidebar-nav__dropdown").slideUp(200);
 	});
 
 	//questions

@@ -546,6 +546,7 @@ form {
 .slider-marquee {
 	margin-top: 142px;
 }
+.slider-nav-tabs:not(.slick-initialized)>*,
 .slider-two:not(.slick-initialized)>*,
 .slider-vertical:not(.slick-initialized)>*,
 .slider-doctors:not(.slick-initialized)>*,
@@ -1180,6 +1181,7 @@ form {
 .team__head .title-min {
 	max-width: 640px;
 }
+.slider-nav-tabs .slick-track,
 .slider-two .slick-track,
 .slider-documents .slick-track,
 .slider-for-portfolio .slick-track,
@@ -1188,6 +1190,7 @@ form {
 .slider-four .slick-track {
 	display: flex !important;
 }
+.slider-nav-tabs .slick-slide,
 .slider-two .slick-slide,
 .slider-documents .slick-slide,
 .slider-for-portfolio .slick-slide,
@@ -1479,6 +1482,7 @@ form {
 .tab-container ul {
 	padding-bottom: 30px;
 }
+.page-stomatology__content ul li,
 .advantages-service__main ul li,
 .page-service__content ul li,
 .page-category__content ul li,
@@ -1488,6 +1492,7 @@ form {
 	font-weight: 600;
 	position: relative;
 }
+.page-stomatology__content ul li::before,
 .advantages-service__main ul li::before,
 .page-service__content ul li::before,
 .page-category__content ul li::before,
@@ -2059,7 +2064,6 @@ form {
 }
 
 .page-category {
-	padding-top: 5.3vw;
 	padding-bottom: 69px;
 	margin: 20px;
 	margin-top: 0;
@@ -2355,7 +2359,6 @@ form {
 }
 
 .page-service {
-	padding-top: 5.3vw;
 	padding-bottom: 80px;
 }
 .page-service__content {
@@ -3097,7 +3100,6 @@ form {
 
 .page-contacts {
 	padding-bottom: 80px;
-	padding-top: 5.3vw;
 	background-image: url(../img/bg1.svg);
 	background-repeat: no-repeat;
 	background-position: center top;
@@ -3362,7 +3364,6 @@ form {
 	margin-left: 80px;
 }
 .page-about {
-	padding-top: 5.3vw;
 	background-image: url(../img/bg1.svg);
 	background-repeat: no-repeat;
 	background-position: center top;
@@ -3508,4 +3509,343 @@ form {
 }
 .lead-info p {
 	margin: 0;
+}
+
+.page-portfolio,
+.page-stomatology,
+.page-service,
+.page-contacts,
+.page-about,
+.page-prices,
+.page-category {
+	padding-top: 5.3vw;
+}
+.sidebar-nav__item {
+	margin-bottom: 6px;
+}
+.sidebar-nav__title {
+	font-size: 20px;
+	padding: 20px 32px;
+	border-radius: 14px;
+	line-height: 140%;
+	background: #67714f;
+	font-weight: 500;
+	color: #fff;
+	cursor: pointer;
+	transition: all 0.3s;
+}
+.sidebar-nav__dropdown {
+	padding: 20px;
+	border-radius: 14px;
+	background: #fff;
+	display: none;
+}
+.sidebar-nav__dropdown li {
+	margin-bottom: 12px;
+}
+.sidebar-nav__dropdown li:last-child {
+	margin-bottom: 0;
+}
+.sidebar-nav__dropdown li a {
+	color: #4c4d48;
+}
+.sidebar-nav__dropdown li.active a {
+	color: #92af50;
+}
+.title-middle.title-middle--table {
+	margin-bottom: 17px;
+	margin-top: 13px;
+	text-align: center;
+}
+.pricelist-content .table-main th {
+	background: #616161;
+	color: #fff;
+}
+.page-prices .pricelist__button .btn-main {
+	padding: 16px 24px;
+	font-size: 13px;
+	border-radius: 12px;
+}
+.pricelist-content {
+	padding-top: 34px;
+	padding-bottom: 45px;
+	border-radius: 28px;
+	margin: 0 20px;
+	background: #efefef;
+}
+.item-card.item-card--full {
+	margin: 63px 0;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	align-items: center;
+}
+.item-card.item-card--full .item-card__content {
+	min-height: 95%;
+	margin: 0;
+	margin-left: -60px;
+	padding-left: 24px;
+	display: flex;
+	flex-direction: column;
+}
+.item-card.item-card--full .item-card__sale {
+	left: 12px;
+	right: auto;
+}
+.item-card.item-card--full .item-card__image {
+	height: 380px;
+}
+.pricelist-text {
+	padding: 36px 48px;
+	margin: 80px 0;
+	border-radius: 18px;
+	background: #cedab4;
+	color: #4c4d48;
+	font-weight: 500;
+}
+.pricelist-text h3 {
+	font-size: 24px;
+	line-height: 160%;
+	color: #000;
+	font-weight: 500;
+}
+
+.page-stomatology {
+	padding-bottom: 80px;
+	background-image: url(../img/bg1.svg);
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-size: contain;
+}
+.page-stomatology__content {
+	max-width: 760px;
+}
+.location-stomatology {
+	font-size: 24px;
+	gap: 20px;
+	margin-bottom: 48px;
+	line-height: 140%;
+	font-weight: 500;
+	display: flex;
+	align-items: center;
+}
+.location-stomatology::before {
+	position: relative;
+	display: block;
+	content: " ";
+	width: 32px;
+	height: 32px;
+	background-image: url(../img/marker.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+}
+.page-stomatology__content .title-section {
+	max-width: 505px;
+	margin-bottom: 20px;
+}
+.video-stomatology {
+	border-radius: 16px;
+	display: block;
+	position: relative;
+	overflow: hidden;
+}
+.video-stomatology img {
+	border-radius: 16px;
+	width: 100%;
+	height: auto;
+	transition: all 1s;
+}
+.video-stomatology:hover img {
+	transform: scale(1.05);
+}
+.video-stomatology__btn {
+	padding: 12px;
+	gap: 20px;
+	bottom: 10px;
+	left: 10px;
+	color: #fff;
+	border-radius: 8px;
+	font-weight: 600;
+	position: absolute;
+	display: flex;
+	align-items: center;
+	background: #4c4d48;
+}
+.video-stomatology__btn::after {
+	position: relative;
+	display: block;
+	content: " ";
+	width: 42px;
+	height: 42px;
+	background-image: url(../img/play2.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+	transition: all 0.3s;
+}
+.tags {
+	gap: 12px;
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+}
+.tags a {
+	padding: 16px 20px;
+	border-radius: 18px;
+	font-size: 20px;
+	line-height: 140%;
+	color: #000;
+	display: block;
+	font-weight: 600;
+	background: #f4f7ee;
+	border: 1px solid #92af50;
+}
+.page-stomatology .tags {
+	margin-top: 99px;
+}
+.page-stomatology .slider-three {
+	margin-top: 89px;
+}
+.about-stomatology .text-main,
+.page-stomatology~.equipment,
+.services-stomatology {
+	padding-top: 80px;
+}
+.services-stomatology .title-section {
+	margin-bottom: 40px;
+}
+.documents-wrapper {
+	padding: 32px 74px;
+	padding-bottom: 37px;
+	border-radius: 28px;
+	background: #efefef;
+}
+.about-stomatology .title-section {
+	margin-bottom: 29px;
+	text-align: center;
+}
+.slider-nav-tabs {
+	padding: 0 67px;
+}
+.slider-nav-tabs .slick-prev {
+	left: 0;
+}
+.slider-nav-tabs .slick-next {
+	right: 0;
+}
+.slider-nav-tabs__item {
+	padding: 13px 10px;
+	border: 1px solid #92af50;
+	border-radius: 14px;
+	line-height: 140%;
+	text-align: center;
+	color: #000;
+	display: block;
+	font-weight: 500;
+	cursor: pointer;
+	transition: all 0.3s;
+	background: #fff;
+}
+.slick-current .slider-nav-tabs__item {
+	background: #92af50;
+}
+.slider-nav-tabs .slick-slide {
+	padding: 0 4px;
+}
+.slider-nav-tabs .slick-list {
+	margin: 0 -8px;
+}
+.slider-for-tabs {
+	margin-top: 30px;
+}
+.item-document-title {
+	margin-top: 11px;
+	margin-bottom: 12px;
+	line-height: 140%;
+	font-weight: 500;
+}
+.item-document-text {
+	font-size: 16px;
+	line-height: 160%;
+}
+.item-document-text p {
+	margin: 0;
+}
+.text-main {
+	font-size: 20px;
+	line-height: 160%;
+}
+.text-main p {
+	margin-bottom: 15px;
+}
+.text-main h3 {
+	font-size: 32px;
+	margin-bottom: 24px;
+	line-height: 140%;
+	font-weight: 500;
+}
+.about-stomatology {
+	padding-bottom: 80px;
+}
+.team.team--light {
+	padding: 80px 0;
+	background: transparent;
+}
+.page-portfolio .tabs-page a {
+	padding: 12px 5px;
+}
+.page-portfolio .tabs-page li {
+	flex-grow: 1;
+}
+.page-portfolio .tabs-page {
+	width: 100%;
+}
+.page-portfolio {
+		background-image: url(../img/bg2.svg);
+	background-repeat: no-repeat;
+	background-position: left top;
+	background-size: contain;
+}
+
+.menu-dropdown {
+	left: 20px;
+	right: 20px;
+	padding-top: 34px;
+	padding-bottom: 45px;
+	border-radius: 0 0 28px 28px;
+	background: linear-gradient(317deg, #647b32 0%, #758c40 35.22%, #92af50 100%);
+	top: 100%;
+	position: absolute;
+	display: none;
+}
+.menu-dropdown__title {
+	font-size: 30px;
+	margin-bottom: 19px;
+	line-height: 130%;
+	color: #fff;
+	font-family: 'Tenor Sans';
+	display: inline-block;
+	vertical-align: middle;
+}
+.menu-dropdown ul li {
+	font-size: 20px;
+	margin-bottom: 16px;
+	font-weight: 500;
+}
+.menu-dropdown ul li:last-child {
+	margin-bottom: 0;
+}
+.menu-dropdown ul li a {
+	color: #fff;
+}
+.menu-dropdown__wrapper {
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-around;
+}
+.menu-dropdown__column {
+	width: 280px;
+}
+.menu-dropdown__column:nth-child(2) {
+	width: 397px;
 }
