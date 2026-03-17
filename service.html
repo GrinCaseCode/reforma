@@ -15,10 +15,11 @@
 	<link rel="stylesheet" href="libs/bootstrap/bootstrap-grid.css" />
 	<link rel="stylesheet" href="libs/fontawesome-free-5.12.0-web/css/all.min.css" />
 	<link rel="stylesheet" href="libs/fancybox-master/dist/jquery.fancybox.min.css" />
+	<link rel="stylesheet" href="libs/datetimepicker/jquery.datetimepicker.min.css" />
 	<link rel="stylesheet" href="libs/slick-1.5.9/slick/slick.css" />
 	<link rel="stylesheet" href="css/fonts.css" />
-	<link rel="stylesheet" href="css/main.css?ver=1.4" />
-	<link rel="stylesheet" href="css/media.css?ver=1.4" />
+	<link rel="stylesheet" href="css/main.css?ver=1.8" />
+	<link rel="stylesheet" href="css/media.css?ver=1.8" />
 </head>
 <body>
 
@@ -80,6 +81,50 @@
 				<div class="header__menu">
 					<nav class="menu">
 					<ul class="menu__list">
+						<li class="menu__haschild">
+							<a href="#">Услуги</a>
+							<i class="far fa-chevron-down"></i>
+							<ul>
+								<li><a href="#">Лечение зубов</a></li>
+								<li><a href="#">Детская стоматология</a></li>
+								<li><a href="#">Имплантация</a></li>
+								<li><a href="#">Протезирование</a></li>
+								<li><a href="#">Виниры</a></li>
+								<li><a href="#">Ортодонтия</a></li>
+								<li><a href="#">Детская стоматология</a></li>
+								<li><a href="#">Профессиональная гигиена</a></li>
+								<li><a href="#">Отбеливание</a></li>
+								<li><a href="#">Лечение десен</a></li>
+							</ul>
+						</li>
+						<li class="menu__haschild">
+							<a href="#">Поиск по клиническим случаям</a>
+							<i class="far fa-chevron-down"></i>
+							<ul>
+								<li><a href="#">Лечение зубов</a></li>
+								<li><a href="#">Детская стоматология</a></li>
+								<li><a href="#">Имплантация</a></li>
+								<li><a href="#">Протезирование</a></li>
+								<li><a href="#">Виниры</a></li>
+								<li><a href="#">Ортодонтия</a></li>
+								<li><a href="#">Детская стоматология</a></li>
+								<li><a href="#">Профессиональная гигиена</a></li>
+								<li><a href="#">Отбеливание</a></li>
+								<li><a href="#">Лечение десен</a></li>
+							</ul>
+						</li>
+						<li class="menu__haschild">
+							<a href="#">О нас</a>
+							<i class="far fa-chevron-down"></i>
+							<ul>
+								<li><a href="#">Врачи</a></li>
+								<li><a href="#">О клинике</a></li>
+								<li><a href="#">Отзывы</a></li>
+								<li><a href="#">Акции</a></li>
+								<li><a href="#">Контакты</a></li>
+								<li><a href="#">Налоговый вычет</a></li>
+							</ul>
+						</li>
 						<li><a href="#">Лечение зубов</a></li>
 						<li><a href="#">Имплантация</a></li>
 						<li><a href="#">Протезирование</a></li>
@@ -98,6 +143,53 @@
 						<li><a href="#" target="_blank"><img src="img/tg.svg" alt="alt"></a></li>
 						<li><a href="#" target="_blank"><img src="img/max.svg" alt="alt"></a></li>
 					</ul>
+				</div>
+			</div>
+			<div class="menu-dropdown">
+				<div class="container">
+					<div class="menu-dropdown__wrapper">
+						<div class="menu-dropdown__column">
+							<a href="#" class="menu-dropdown__title">Услуги</a>
+							<ul>
+								<li><a href="#">Лечение зубов</a></li>
+								<li><a href="#">Детская стоматология</a></li>
+								<li><a href="#">Имплантация</a></li>
+								<li><a href="#">Протезирование</a></li>
+								<li><a href="#">Виниры</a></li>
+								<li><a href="#">Ортодонтия</a></li>
+								<li><a href="#">Детская стоматология</a></li>
+								<li><a href="#">Профессиональная гигиена</a></li>
+								<li><a href="#">Отбеливание</a></li>
+								<li><a href="#">Лечение десен</a></li>
+							</ul>
+						</div>
+						<div class="menu-dropdown__column">
+							<a href="#" class="menu-dropdown__title">Поиск по клиническим случаям</a>
+							<ul>
+								<li><a href="#">Лечение зубов</a></li>
+								<li><a href="#">Детская стоматология</a></li>
+								<li><a href="#">Имплантация</a></li>
+								<li><a href="#">Протезирование</a></li>
+								<li><a href="#">Виниры</a></li>
+								<li><a href="#">Ортодонтия</a></li>
+								<li><a href="#">Детская стоматология</a></li>
+								<li><a href="#">Профессиональная гигиена</a></li>
+								<li><a href="#">Отбеливание</a></li>
+								<li><a href="#">Лечение десен</a></li>
+							</ul>
+						</div>
+						<div class="menu-dropdown__column">
+							<a href="#" class="menu-dropdown__title">О нас</a>
+							<ul>
+								<li><a href="#">Врачи</a></li>
+								<li><a href="#">О клинике</a></li>
+								<li><a href="#">Отзывы</a></li>
+								<li><a href="#">Акции</a></li>
+								<li><a href="#">Контакты</a></li>
+								<li><a href="#">Налоговый вычет</a></li>
+							</ul>
+						</div>
+					</div>
 				</div>
 			</div>
 			<div class="menu-overlay"></div>
@@ -2090,9 +2182,10 @@
 
 	<script src="libs/jquery/jquery-3.6.0.min.js"></script>
 	<script src="libs/fancybox-master/dist/jquery.fancybox.min.js"></script>
+	<script src="libs/datetimepicker/jquery.datetimepicker.full.min.js"></script>
 	<script src="libs/slick-1.5.9/slick/slick.min.js"></script>
 	<script src="libs/mask/jquery.maskedinput.js"></script>
-	<script src="js/common.js?ver=1.4"></script>
+	<script src="js/common.js?ver=1.8"></script>
 	<!-- Yandex.Metrika counter --><!-- /Yandex.Metrika counter -->
 	<!-- Google Analytics counter --><!-- /Google Analytics counter -->
 </body>

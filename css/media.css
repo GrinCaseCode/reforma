@@ -360,7 +360,7 @@
     .switcher--map .switcher__circle {
         left: 35px;
     }
-    .item-location {
+    .item-location__wrap {
         padding: 31px 21px;
         border-radius: 21px;
     }
@@ -373,7 +373,7 @@
     .item-location__image::after {
         border-radius: 21px;
     }
-    .item-location__subtitle {
+    .item-location__info {
         padding: 21px 32px;
         font-size: 25px;
         border-radius: 10px 10px 0 0;
@@ -397,7 +397,7 @@
     .item-location__text ul li {
         margin-bottom: 11px;
     }
-    .item-location__bottom .btn-main {
+    .item-location .btn-main {
         width: 259px;
     }
 
@@ -883,7 +883,7 @@
         font-size: 18px;
         margin-bottom: 18px;
     }
-    .col-lg-3 .item-location {
+    .col-lg-3 .item-location__wrap {
         padding: 14px 10px;
         font-size: 14px;
     }
@@ -1162,6 +1162,95 @@
     .about-stomatology {
         padding-bottom: 65px;
     }
+    .menu-dropdown ul li {
+        font-size: 18px;
+        margin-bottom: 13px;
+    }
+    .menu-dropdown__title {
+        font-size: 26px;
+        margin-bottom: 15px;
+    }
+    .menu-dropdown__column {
+        width: 273px;
+    }
+    .menu-dropdown__column:nth-child(2) {
+        width: 360px;
+    }
+    .search-main {
+        width: 320px;
+    }
+    .form-team__wrap .item-form {
+        width: 245px;
+    }
+    .head-team {
+        margin-bottom: 32px;
+    }
+    .consultation+.footer {
+        margin-top: 75px;
+    }
+    .nav-page a {
+        font-size: 18px;
+        padding: 18px 27px;
+    }
+    .about-case__content {
+        max-width: 513px;
+        margin-left: 15px;
+    }
+    .about-case__title {
+        font-size: 27px;
+        margin-bottom: 9px;
+    }
+    .about-case .title-section {
+        margin-bottom: 28px;
+    }
+    .about-case {
+        padding-bottom: 70px;
+    }
+    .item-information__head {
+        font-size: 22px;
+        padding: 12px;
+    }
+    .item-information__head img {
+        width: 29px;
+    }
+    .reviews-case, .before-after {
+        padding: 35px 180px;
+        padding-bottom: 50px;
+        border-radius: 28px;
+        margin-bottom: 40px;
+    }
+    .services-case .title-section, .reviews-case .title-section, .before-after .title-section {
+        margin-bottom: 33px;
+    }
+    .before-after .item-portfolio {
+        max-width: 490px;
+    }
+    .doctor-main__text {
+        font-size: 18px;
+    }
+    .doctor-main__text p {
+        margin-bottom: 15px;
+    }
+    .doctor-main__name {
+        font-size: 28px;
+        margin-bottom: 23px;
+    }
+    .doctor-main__image {
+        margin-right: 95px;
+    }
+    .doctor-main__content {
+        margin-left: -75px;
+    }
+    .locations--doctor .title-section {
+        max-width: 100%;
+    }
+    .col-lg-3 .item-location__info {
+    padding: 18px 26px;
+    font-size: 18px;
+}
+.item-location__info .btn-main {
+    height: 51px;
+}
 }
 
 @media only screen and (max-width : 1570px) {
@@ -1521,7 +1610,7 @@
     .switcher--map .switcher__circle {
         left: 30px;
     }
-    .item-location {
+    .item-location__wrap {
         padding: 27px 18px;
         border-radius: 18px;
     }
@@ -1534,7 +1623,7 @@
     .item-location__image::after {
         border-radius: 18px;
     }
-    .item-location__subtitle {
+    .item-location__info {
         padding: 18px 28px;
         font-size: 22px;
         border-radius: 9px 9px 0 0;
@@ -1558,7 +1647,7 @@
     .item-location__text ul li {
         margin-bottom: 10px;
     }
-    .item-location__bottom .btn-main {
+    .item-location .btn-main {
         width: 224px;
     }
 
@@ -2348,6 +2437,62 @@
     .team.team--light {
         padding: 60px 0;
     }
+    .search-main {
+        width: 285px;
+    }
+    .form-team__wrap .item-form {
+        width: 223px;
+    }
+    .item-form select {
+        background-position: center right 10px;
+        background-size: 20px auto;
+    }
+    .about-case__content {
+        max-width: 439px;
+        margin-left: 10px;
+    }
+    .nav-page a {
+        font-size: 16px;
+        padding: 16px 24px;
+    }
+    .item-information__head {
+        font-size: 20px;
+    }
+    .before-after .item-portfolio {
+        max-width: 435px;
+    }
+    .reviews-case, .before-after {
+        padding: 33px 155px;
+        padding-bottom: 45px;
+        border-radius: 26px;
+        margin-bottom: 35px;
+    }
+    .about-case__title {
+        font-size: 25px;
+    }
+    .doctor-main__text {
+        font-size: 16px;
+    }
+    .doctor-main__name {
+        font-size: 25px;
+        margin-bottom: 20px;
+    }
+    .doctor-main__image {
+        margin-right: 80px;
+    }
+    .doctor-main__content {
+        margin-left: -60px;
+    }
+    .documents-doctor, .locations.locations--doctor {
+        padding-bottom: 70px;
+    }
+    .documents-doctor .tabs a {
+        min-width: 280px;
+    }
+    .documents-doctor .slider-four {
+        padding: 0 50px;
+    }
+
 }
 
 @media only screen and (max-width : 1420px) {
@@ -2706,7 +2851,7 @@
     .switcher--map .switcher__circle {
         left: 27px;
     }
-    .item-location {
+    .item-location__wrap {
         padding: 24px 16px;
         border-radius: 16px;
     }
@@ -2719,7 +2864,7 @@
     .item-location__image::after {
         border-radius: 16px;
     }
-    .item-location__subtitle {
+    .item-location__info {
         padding: 16px 25px;
         font-size: 19px;
         border-radius: 8px 8px 0 0;
@@ -2743,7 +2888,7 @@
     .item-location__text ul li {
         margin-bottom: 9px;
     }
-    .item-location__bottom .btn-main {
+    .item-location .btn-main {
         width: 198px;
     }
 
@@ -3475,6 +3620,92 @@
         max-width: 381px;
         margin-bottom: 17px;
     }
+    .menu-dropdown ul li {
+        font-size: 16px;
+        margin-bottom: 12px;
+    }
+    .menu-dropdown__title {
+        font-size: 24px;
+        margin-bottom: 13px;
+    }
+    .menu-dropdown__column:nth-child(2) {
+        width: 330px;
+    }
+    .menu-dropdown {
+        left: 15px;
+        right: 15px;
+        padding-top: 30px;
+        padding-bottom: 40px;
+    }
+    .menu-dropdown__column {
+        width: 230px;
+    }
+    .search-main input {
+        height: 48px;
+        font-size: 12px;
+    }
+    .item-form select {
+        height: 48px;
+        font-size: 12px;
+    }
+    .form-team__wrap .item-form {
+        width: 190px;
+    }
+    .search-main {
+        width: 265px;
+    }
+    .about-case__content {
+        max-width: 390px;
+        margin-left: 0;
+    }
+    .item-information__head {
+        font-size: 18px;
+    }
+    .item-information__head img {
+        width: 26px;
+    }
+    .before-after .item-portfolio {
+        max-width: 395px;
+    }
+    .reviews-case, .before-after {
+        padding: 33px 115px;
+        padding-bottom: 45px;
+        border-radius: 26px;
+        margin-bottom: 35px;
+    }
+    .page-case {
+        padding-bottom: 70px;
+    }
+    .about-case__title {
+        font-size: 22px;
+    }
+    .nav-page a {
+        font-size: 14px;
+        padding: 14px 20px;
+        border-radius: 12px;
+    }
+    .doctor-main__name {
+        font-size: 22px;
+        margin-bottom: 16px;
+    }
+    .doctor-main__text {
+        font-size: 14px;
+    }
+    .doctor-main__image {
+        margin-right: 60px;
+    }
+    .doctor-main__content {
+        margin-left: -45px;
+    }
+    .documents-doctor .slider-four {
+        padding: 0 40px;
+    }
+    .documents-doctor .tabs a {
+        min-width: 245px;
+    }
+        .item-location__info .btn-main {
+    width: 175px;
+}
 }
 
 /* Large Devices, Wide Screens */
@@ -3522,7 +3753,7 @@
     .page-category__content .title-section {
         margin-bottom: 29px;
     }
-    .col-lg-3 .item-location {
+    .col-lg-3 .item-location__wrap {
         font-size: 12px;
     }
     .slider-vertical .slick-list {
@@ -3591,6 +3822,28 @@
     }
     .page-about .col-lg-5 {
         align-self: flex-end;
+    }
+    .head-team {
+        display: block;
+        margin-bottom: 25px;
+    }
+    .head-team .title-section {
+        margin-bottom: 15px;
+    }
+    .reviews-case, .before-after {
+        padding: 33px 76px;
+        padding-bottom: 45px;
+        border-radius: 26px;
+        margin-bottom: 35px;
+    }
+    .doctor-main__image {
+        margin-right: 15px;
+    }
+    .doctor-main__content {
+        margin-left: -10px;
+    }
+    .single-doctor {
+        padding-bottom: 45px;
     }
 }
 
@@ -4069,7 +4322,7 @@
     .item-location__text ul {
         padding-left: 20px;
     }
-    .item-location__bottom .btn-main {
+    .item-location .btn-main {
         width: 100%;
     }
     .item-location__logo {
@@ -4079,7 +4332,7 @@
         padding: 0;
         justify-content: flex-start;
     }
-    .item-location {
+    .item-location__wrap {
         padding: 0;
     }
     .item-location__head i {
@@ -4592,6 +4845,7 @@
     }
     .menu__list li {
         margin-bottom: 4px;
+        position: relative;
     }
     .body--menu {
         overflow: hidden;
@@ -4644,7 +4898,7 @@
         margin: 0 auto;
         margin-top: 20px;
     }
-    .col-lg-3 .item-location {
+    .col-lg-3 .item-location__wrap {
         padding: 0;
         font-size: 14px;
     }
@@ -4936,6 +5190,10 @@
     .reviews-service .tab-container-page {
         padding-top: 10px;
     }
+    .page-deduction,
+    .single-doctor,
+    .page-case,
+    .page-team,
     .page-portfolio,
     .page-stomatology,
     .page-prices,
@@ -5076,6 +5334,7 @@
     .tabs.tabs--secondary li a {
         text-align: center;
     }
+    .single-doctor,
     .page-portfolio,
     .page-stomatology,
     .page-about,
@@ -5155,6 +5414,190 @@
     .about-stomatology {
         padding-bottom: 35px;
     }
+    .menu-dropdown {
+        display: none !important;
+    }
+    .menu__list i {
+        width: 42px;
+        height: 42px;
+        top: 0;
+        right: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #fff;
+        position: absolute;
+        transition: all 0.3s;
+    }
+    .menu__list .active i {
+        transform: rotate(180deg);
+    }
+    .menu__list li ul {
+        padding: 5px 15px;
+        display: none;
+    }
+    .menu__list li ul a {
+        padding: 0;
+        background: transparent;
+    }
+    .form-team__wrap {
+        display: block;
+    }
+    .form-team__wrap .search-main,
+    .form-team__wrap .item-form {
+        margin-bottom: 15px;
+        width: 100%;
+    }
+    .item-form select {
+        height: 50px;
+        font-size: 14px;
+    }
+    .search-main input {
+        height: 50px;
+        font-size: 14px;
+    }
+    .form-team .btn-main {
+        width: 100%;
+    }
+    .consultation+.footer {
+        margin-top: 50px;
+    }
+    .breadcrumbs li::after {
+        margin: 0 7px;
+    }
+    .nav-page a {
+        font-size: 18px;
+        padding: 16px 20px;
+        border-radius: 12px;
+    }
+    .about-case__title {
+        font-size: 14px;
+        margin-bottom: 12px;
+    }
+    .about-case .title-section {
+        margin-bottom: 24px;
+    }
+    .about-case__image {
+        margin: 0;
+        margin-bottom: 24px;
+    }
+    .item-team--custom .item-team__image {
+        width: 60px;
+        height: 60px;
+        flex: none;
+        border-radius: 50%;
+    }
+    .item-team--custom .item-team__image img {
+        border-radius: 50%;
+    }
+    .item-team.item-team--custom {
+        padding: 12px;
+        padding-top: 42px;
+        position: relative;
+        gap: 10px;
+        flex-direction: row;
+    }
+    .item-team__text--top {
+        top: 12px;
+        left: 12px;
+        position: absolute;
+    }
+    .item-team__text--top+.item-team__name {
+        margin: 0;
+        margin-bottom: 12px;
+    }
+    .item-team--custom .item-team__content {
+        padding: 0;
+    }
+    .about-case {
+        padding-bottom: 36px;
+    }
+    .item-information {
+        padding: 0;
+    }
+    .item-information__content {
+        padding: 12px;
+        padding-top: 0;
+        display: none;
+    }
+    .item-information__top {
+        padding: 12px;
+        display: flex;
+        cursor: pointer;
+    }
+    .item-information__head {
+        border-radius: 16px 16px 0 16px;
+        padding: 12px;
+        font-size: 24px;
+        margin: 0;
+        flex: 1;
+    }
+    .item-information__head img {
+        width: 32px;
+    }
+    .item-information__top i {
+        height: 52px;
+        width: 48px;
+        padding-right: 8px;
+        font-size: 16px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        transition: all 0.3s;
+    }
+    .item-information__top i::before {
+        transition: all 0.3s;
+    }
+    .item-information.active .item-information__top i::before {
+        transform: rotate(180deg);
+    }
+    .reviews-case, .before-after {
+        padding: 0;
+        background: transparent;
+        margin: 0;
+        margin-bottom: 36px;
+    }
+    .services-case .title-section, .reviews-case .title-section, .before-after .title-section {
+        text-align: left;
+        margin-bottom: 16px;
+    }
+    .before-after .item-portfolio {
+        max-width: 100%;
+    }
+    .page-case {
+        padding-bottom: 36px;
+    }
+    .doctor-main {
+        padding: 16px;
+    }
+    .doctor-main__image {
+        margin: 0;
+    }
+    .doctor-main__content {
+        margin: 0;
+        padding-top: 20px;
+    }
+    .doctor-main__name {
+        font-size: 20px;
+    }
+    .documents-doctor .slider-four {
+        padding: 10px;
+        padding-bottom: 40px;
+        margin-bottom: 25px;
+    }
+    .documents-doctor .tabs a {
+        width: 100%;
+        min-width: initial;
+    }
+    .documents-doctor .tabs li {
+        width: 100%;
+    }
+    .documents-doctor, .locations.locations--doctor {
+        padding-bottom: 50px;
+    }
+    .sales .title-section {
+        margin-bottom: 24px;
+    }
 }
 
 /* Small Devices, Tablets */
@@ -5171,6 +5614,7 @@
 
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 992px) {
+    .item-information__top i,
     .menu-overlay,
     .menu-mobile,
     .footer__title i,
@@ -5181,6 +5625,7 @@
     .sandwich--mobile {
         display: none !important;
     }
+    .item-information__content,
     .coordinator__info-content {
         display: block !important;
     }
@@ -5283,9 +5728,9 @@
         border-color: #92af50;
         color: #000;
     }
-    .item-location:hover .item-location__front {
-        opacity: 1;
-        visibility: visible;
+    .item-location:hover .item-location__wrap {
+        transform: rotateY(180deg);
+        transition: transform 0.5s;
     }
     .item-portfolio:hover {
         border-color: #92af50;
@@ -5327,6 +5772,12 @@
     }
     .slider-nav-tabs__item:hover {
         background: #92af50;
+    }
+    .menu-dropdown ul li a:hover {
+        border-color: #fff;
+    }
+    .nav-page a:hover {
+        background: #596243;
     }
 }
 
@@ -5442,5 +5893,11 @@
     }
     .slider-nav-tabs__item:active {
         background: #92af50;
+    }
+    .menu-dropdown ul li a:active {
+        background: #fff;
+    }
+    .nav-page a:active {
+        background: #596243;
     }
 }
