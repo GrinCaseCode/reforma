@@ -3537,6 +3537,8 @@ form {
 	margin: 0;
 }
 
+.reviews.reviews--page,
+.page-sales,
 .page-deduction,
 .single-doctor,
 .page-case,
@@ -3886,6 +3888,7 @@ form {
 	align-items: center;
 	justify-content: space-between;
 }
+.installment+.footer,
 .consultation+.footer {
 	margin-top: 90px;
 }
@@ -4186,6 +4189,8 @@ font-family: 'Manrope';
 .tabs--deduction .active a {
 	border-color: transparent;
 }
+.item-form--page input,
+.item-form--page textarea,
 .tab-container .item-form input {
 	border: 1px solid rgba(0, 0, 0, 0.25);
 }
@@ -4212,4 +4217,228 @@ font-family: 'Manrope';
 }
 .checkbox.checkbox--main label input:checked {
 	border-color: #92AF50;
+}
+
+.reviews.reviews--page,
+.page-sales {
+	padding-bottom: 90px;
+	background-image: url(../img/bg1.svg);
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-size: contain;
+}
+.page-sales .title-section {
+	margin-bottom: 38px;
+}
+.col-xl-6 > .item-card.item-card--full .item-card__image {
+	height: 476px;
+}
+.col-xl-6 > .item-card.item-card--full {
+    margin: 0;
+    grid-template-columns: 1.9fr 1fr;
+}
+.col-xl-6 > .item-card.item-card--full .item-card__content {
+    margin-left: -176px;
+}
+.page-sales .row--main + .row--main {
+	padding-top: 62px;
+}
+.page-sales .bottom-button {
+	padding-top: 40px;
+}
+.bonus-program .title-section {
+	margin-bottom: 28px;
+}
+.item-bonus {
+	padding: 32px;
+	padding-top: 24px;
+	border-radius: 24px;
+	min-height: 100%;
+background: #efefef;
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+}
+.item-bonus__title {
+	font-size: 36px;
+	margin-bottom: 22px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #616161;
+line-height: 160%;
+color: #4c4d48;
+font-weight: 400;
+ font-family: 'Tenor Sans';
+	width: 100%;
+}
+.item-bonus__title span {
+	text-transform: uppercase;
+color: #000;
+display: block;
+}
+.item-bonus__descr {
+	min-height: 58px;
+	margin-bottom: 24px;
+font-weight: 500;
+}
+.item-bonus__line {
+	margin-bottom: 32px;
+	gap: 15px;
+	width: 100%;
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-between;
+}
+.item-bonus__value {
+	padding: 6px 36px;
+	font-size: 32px;
+	gap: 27px;
+line-height: 140%;
+color: #000;
+	border-radius: 16px;
+background: #cedab4;
+font-weight: 500;
+display: inline-flex;
+align-items: center;
+justify-content: center;
+}
+.item-bonus__value span {
+	font-size: 48px;
+line-height: 140%;
+color: #000;
+font-weight: 400;
+ font-family: 'Tenor Sans';
+}
+.item-bonus__line-title {
+	font-size: 20px;
+line-height: 140%;
+color: #4c4d48;
+}
+.item-bonus__line-descr {
+	font-size: 24px;
+line-height: 160%;
+font-weight: 500;
+}
+.item-bonus__content {
+	gap: 5px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+.item-bonus__content div:first-child {
+	text-transform: uppercase;
+}
+.item-bonus__line-badge {
+	font-size: 16px;
+line-height: 140%;
+text-transform: uppercase;
+padding: 10px;
+background: #f4f7ee;
+font-weight: 500;
+}
+.item-bonus__subtitle {
+	font-size: 24px;
+	margin-bottom: 10px;
+line-height: 140%;
+font-weight: 600;
+}
+.item-bonus__text {
+	font-size: 21px;
+line-height: 140%;
+width: 100%;
+}
+.item-bonus__bottom {
+	padding-top: 32px;
+	gap: 10px;
+	width: 100%;
+	margin-top: auto;
+	display: flex;
+	align-items: center;
+}
+.item-bonus .btn-main {
+	height: 70px;
+	padding: 0 25px;
+	font-size: 16px;
+}
+.btn-main.btn-main--secondary {
+	background: #fff;
+	border: 1px solid #4c4d48;
+	color: #000;
+}
+.reviews-service--page .tabs-page {
+	flex-wrap: wrap;
+}
+.reviews-service.reviews-service--page {
+	padding-top: 0;
+}
+.page-deduction .tab-container {
+	margin-bottom: 54px;
+}
+.item-form textarea {
+	height: 155px;
+	padding-top: 15px;
+	resize: none;
+}
+.deduction-filials {
+	margin-bottom: 45px;
+}
+.deduction-note {
+	margin-bottom: 10px;
+}
+.deduction-serts {
+	margin-bottom: 34px;
+}
+.file-upload label {
+	gap: 10px;
+	height: 50px;
+	padding: 0 34px;
+	font-size: 16px;
+	font-weight: 500;
+	color: #fff;
+background: #4c4d48;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	border: none;
+	cursor: pointer;
+	transition: all 0.3s;
+	border-radius: 16px;
+}
+.file-upload input {
+	width: 0 !important;
+	height: 0 !important;
+	padding: 0 !important;
+	opacity: 0 !important;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.file-upload label i {
+	font-size: 120%;
+	position: relative;
+}
+.file-upload {
+	position: relative;
+}
+.name-upload {
+	position: absolute;
+	top: 100%;
+	left: 0;
+	margin-top: 2px;
+	font-size: 12px;
+	line-height: 15px;
+}
+.deduction-upload .title-small {
+	margin-bottom: 20px;
+}
+.checkbox.checkbox--main label input::before {
+	font-size: 10px;
+}
+.deduction-upload {
+	margin-bottom: 5px;
+}
+.deduction-sent {
+	margin-top: 50px;
+}
+.deduction-sent .btn-main {
+	min-width: 348px;
 }

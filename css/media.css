@@ -1185,6 +1185,7 @@
     .head-team {
         margin-bottom: 32px;
     }
+    .installment+.footer,
     .consultation+.footer {
         margin-top: 75px;
     }
@@ -1245,12 +1246,73 @@
         max-width: 100%;
     }
     .col-lg-3 .item-location__info {
-    padding: 18px 26px;
-    font-size: 18px;
-}
-.item-location__info .btn-main {
-    height: 51px;
-}
+        padding: 18px 26px;
+        font-size: 18px;
+    }
+    .item-location__info .btn-main {
+        height: 51px;
+    }
+    .col-xl-6>.item-card.item-card--full .item-card__image {
+        height: 436px;
+    }
+    .col-xl-6>.item-card.item-card--full .item-card__content {
+        margin-left: -150px;
+    }
+    .item-bonus__title {
+        font-size: 33px;
+        margin-bottom: 20px;
+    }
+    .item-bonus__line-title {
+        font-size: 18px;
+    }
+    .item-bonus__line-descr {
+        font-size: 22px;
+    }
+    .item-bonus__value {
+        padding: 5px 31px;
+        font-size: 29px;
+        gap: 22px;
+    }
+    .item-bonus__value span {
+        font-size: 43px;
+    }
+    .item-bonus__line {
+        margin-bottom: 26px;
+    }
+    .item-bonus__subtitle {
+        font-size: 22px;
+        margin-bottom: 8px;
+    }
+    .item-bonus__text {
+        font-size: 18px;
+    }
+    .item-bonus .btn-main {
+        height: 62px;
+        padding: 0 21px;
+        font-size: 14px;
+    }
+    .item-bonus {
+        padding: 26px;
+        padding-top: 20px;
+    }
+    .item-bonus__descr {
+        min-height: 52px;
+        margin-bottom: 21px;
+    }
+    .page-sales {
+        padding-bottom: 80px;
+    }
+    .item-bonus__line-badge {
+        font-size: 14px;
+    }
+    .reviews.reviews--page {
+        padding-bottom: 80px;
+    }
+
+    .about-deduction {
+        font-size: 18px;
+        padding: 30px;
+    }
 }
 
 @media only screen and (max-width : 1570px) {
@@ -2492,7 +2554,63 @@
     .documents-doctor .slider-four {
         padding: 0 50px;
     }
-
+    .item-bonus__title {
+        font-size: 29px;
+    }
+    .item-bonus__line-badge {
+        font-size: 13px;
+    }
+    .item-bonus__line-title {
+        font-size: 16px;
+    }
+    .item-bonus__line-descr {
+        font-size: 19px;
+    }
+    .item-bonus__value {
+        padding: 4px 25px;
+        font-size: 25px;
+        gap: 18px;
+    }
+    .item-bonus__value span {
+        font-size: 36px;
+    }
+    .item-bonus__text {
+        font-size: 16px;
+    }
+    .item-bonus__subtitle {
+        font-size: 19px;
+    }
+    .item-bonus .btn-main {
+        height: 55px;
+        padding: 0px 17px;
+        font-size: 12px;
+        border-radius: 15px;
+    }
+    .item-bonus__bottom {
+        padding-top: 24px;
+    }
+    .item-bonus {
+        padding: 19px;
+        padding-top: 15px;
+    }
+    .page-sales {
+        padding-bottom: 70px;
+    }
+    .col-xl-6>.item-card.item-card--full .item-card__image {
+        height: 380px;
+    }
+    .col-xl-6>.item-card.item-card--full .item-card__content {
+        margin-left: -116px;
+    }
+    .page-sales .row--main+.row--main {
+        padding-top: 45px;
+    }
+    .page-sales .title-section {
+        margin-bottom: 30px;
+    }
+    .reviews.reviews--page {
+        padding-bottom: 70px;
+    }
 }
 
 @media only screen and (max-width : 1420px) {
@@ -3703,9 +3821,41 @@
     .documents-doctor .tabs a {
         min-width: 245px;
     }
-        .item-location__info .btn-main {
-    width: 175px;
-}
+    .item-location__info .btn-main {
+        width: 175px;
+    }
+    .col-xl-6>.item-card.item-card--full .item-card__image {
+        height: 325px;
+    }
+    .item-bonus__title {
+        font-size: 26px;
+    }
+    .item-bonus__descr {
+        min-height: 39px;
+        margin-bottom: 18px;
+    }
+    .item-bonus__text {
+        font-size: 14px;
+    }
+    .item-bonus__subtitle {
+        font-size: 17px;
+    }
+    .item-bonus__line-title {
+        font-size: 15px;
+    }
+    .item-bonus__line-descr {
+        font-size: 17px;
+    }
+    .item-bonus__line-badge {
+        font-size: 11px;
+        padding: 8px;
+    }
+    .bottom-button .btn-main {
+        height: 60px;
+    }
+    .reviews.reviews--page {
+        padding-bottom: 60px;
+    }
 }
 
 /* Large Devices, Wide Screens */
@@ -5190,6 +5340,8 @@
     .reviews-service .tab-container-page {
         padding-top: 10px;
     }
+    .reviews.reviews--page,
+    .page-sales,
     .page-deduction,
     .single-doctor,
     .page-case,
@@ -5334,6 +5486,7 @@
     .tabs.tabs--secondary li a {
         text-align: center;
     }
+    .page-sales,
     .single-doctor,
     .page-portfolio,
     .page-stomatology,
@@ -5459,6 +5612,7 @@
     .form-team .btn-main {
         width: 100%;
     }
+    .installment+.footer,
     .consultation+.footer {
         margin-top: 50px;
     }
@@ -5597,6 +5751,48 @@
     }
     .sales .title-section {
         margin-bottom: 24px;
+    }
+    .page-sales .title-section {
+        margin-bottom: 25px;
+    }
+    .col-xl-6>.item-card.item-card--full .item-card__image {
+        height: 329px;
+    }
+    .col-xl-6>.item-card.item-card--full .item-card__content {
+        margin-left: 9px;
+    }
+    .page-sales {
+        padding-bottom: 50px;
+    }
+    .item-bonus__title {
+        font-size: 22px;
+    }
+    .item-bonus__line {
+        display: block;
+    }
+    .item-bonus__content {
+        margin-bottom: 6px;
+    }
+    .item-bonus__line-badge {
+        font-size: 12px;
+        padding: 10px;
+    }
+    .item-bonus__text {
+        font-size: 15px;
+    }
+    .item-bonus__subtitle {
+        font-size: 18px;
+    }
+    .item-bonus__bottom {
+        flex-wrap: wrap;
+    }
+    .item-bonus__bottom .btn-main {
+        height: 50px;
+        font-size: 13px;
+        width: 100%;
+    }
+    .reviews.reviews--page {
+        padding-bottom: 50px;
     }
 }
 
@@ -5778,6 +5974,11 @@
     }
     .nav-page a:hover {
         background: #596243;
+    }
+    .btn-main.btn-main--secondary:hover {
+        color: #fff;
+        background: #92af50;
+        border-color: #92af50;
     }
 }
 

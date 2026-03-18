@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html lang="ru" class="lt-ie9 lt-ie8 lt-ie7"><![endif]-->
+<!--[if IE 7]><html lang="ru" class="lt-ie9 lt-ie8"><![endif]-->
+<!--[if IE 8]><html lang="ru" class="lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="ru">
+<!--<![endif]-->
+<head>
+	<meta charset="utf-8" />
+	<title>Заголовок</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<meta name="format-detection" content="telephone=no" />
+	<link rel="shortcut icon" href="favicon.png" />
+	<link rel="stylesheet" href="libs/bootstrap/bootstrap-grid.css" />
+	<link rel="stylesheet" href="libs/fontawesome-free-5.12.0-web/css/all.min.css" />
+	<link rel="stylesheet" href="libs/fancybox-master/dist/jquery.fancybox.min.css" />
+	<link rel="stylesheet" href="libs/datetimepicker/jquery.datetimepicker.min.css" />
+	<link rel="stylesheet" href="libs/slick-1.5.9/slick/slick.css" />
+	<link rel="stylesheet" href="css/fonts.css" />
+	<link rel="stylesheet" href="css/main.css?ver=1.8" />
+	<link rel="stylesheet" href="css/media.css?ver=1.8" />
+</head>
+<body>
+
+	<div class="wrapper">
+
+		<header class="header header--page default">
+			<div class="container-fluid">
+				<div class="header__wrapper">
+					<div class="sandwich sandwich--mobile">
+						<div class="sw-topper"></div>
+						<div class="sw-bottom"></div>
+						<div class="sw-footer"></div>
+					</div>
+					<a href="#" class="logo">
+						<img src="img/logo.svg" alt="alt">
+						<span>Сеть стоматологий полного цикла</span>
+					</a>
+					<div class="location-main">
+						<div class="location-main__value">Белгород <i class="fas fa-chevron-down"></i></div>
+						<div class="location-main__descr">ул. Мичурина, 48А</div>
+					</div>
+					<div class="header__menu">
+						<div class="sandwich sandwich--menu">
+							<div class="sw-topper"></div>
+							<div class="sw-bottom"></div>
+							<div class="sw-footer"></div>
+						</div>
+						<nav class="menu">
+							<ul class="menu__list">
+								<li><a href="#">Лечение зубов</a></li>
+								<li><a href="#">Имплантация</a></li>
+								<li><a href="#">Протезирование</a></li>
+								<li><a href="#">Виниры</a></li>
+								<li><a href="#">Ортодонтия</a></li>
+								<li><a href="#">КТ зубов</a></li>
+								<li><a href="#">Портфолио</a></li>
+							</ul>
+						</nav>
+						<a href="#" class="header__price">Прайс-лист</a>
+					</div>
+					<div class="btn-sign-wrap">
+						<a href="#" class="btn-sign">
+							<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="32" height="32" rx="8" fill="#92AF50"/><path d="M9 16H23" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M17 10L23 16L17 22" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+							Онлайн запись
+						</a>
+					</div>
+					<div class="header__contacts">
+						<a href="tel:+74722421031" class="header__phone">+7 (4722) 42-10-31</a>
+						<div class="header__time">Ежедневно 9:00–20:00</div>
+						<ul class="header__socials">
+							<li><a href="#" target="_blank"><img src="img/tg.svg" alt="alt"></a></li>
+							<li><a href="#" target="_blank"><img src="img/max.svg" alt="alt"></a></li>
+						</ul>
+					</div>
+					<a href="tel:+74722421031" class="phone-mobile"><i class="fas fa-phone-alt"></i></a>
+				</div>
+			</div>
+			<div class="menu-mobile">
+				<div class="header__menu">
+					<nav class="menu">
+					<ul class="menu__list">
+						<li class="menu__haschild">
+							<a href="#">Услуги</a>
+							<i class="far fa-chevron-down"></i>
+							<ul>
+								<li><a href="#">Лечение зубов</a></li>
+								<li><a href="#">Детская стоматология</a></li>
+								<li><a href="#">Имплантация</a></li>
+								<li><a href="#">Протезирование</a></li>
+								<li><a href="#">Виниры</a></li>
+								<li><a href="#">Ортодонтия</a></li>
+								<li><a href="#">Детская стоматология</a></li>
+								<li><a href="#">Профессиональная гигиена</a></li>
+								<li><a href="#">Отбеливание</a></li>
+								<li><a href="#">Лечение десен</a></li>
+							</ul>
+						</li>
+						<li class="menu__haschild">
+							<a href="#">Поиск по клиническим случаям</a>
+							<i class="far fa-chevron-down"></i>
+							<ul>
+								<li><a href="#">Лечение зубов</a></li>
+								<li><a href="#">Детская стоматология</a></li>
+								<li><a href="#">Имплантация</a></li>
+								<li><a href="#">Протезирование</a></li>
+								<li><a href="#">Виниры</a></li>
+								<li><a href="#">Ортодонтия</a></li>
+								<li><a href="#">Детская стоматология</a></li>
+								<li><a href="#">Профессиональная гигиена</a></li>
+								<li><a href="#">Отбеливание</a></li>
+								<li><a href="#">Лечение десен</a></li>
+							</ul>
+						</li>
+						<li class="menu__haschild">
+							<a href="#">О нас</a>
+							<i class="far fa-chevron-down"></i>
+							<ul>
+								<li><a href="#">Врачи</a></li>
+								<li><a href="#">О клинике</a></li>
+								<li><a href="#">Отзывы</a></li>
+								<li><a href="#">Акции</a></li>
+								<li><a href="#">Контакты</a></li>
+								<li><a href="#">Налоговый вычет</a></li>
+							</ul>
+						</li>
+						<li><a href="#">Лечение зубов</a></li>
+						<li><a href="#">Имплантация</a></li>
+						<li><a href="#">Протезирование</a></li>
+						<li><a href="#">Виниры</a></li>
+						<li><a href="#">Ортодонтия</a></li>
+						<li><a href="#">КТ зубов</a></li>
+						<li><a href="#">Портфолио</a></li>
+					</ul>
+				</nav>
+				<a href="#" class="header__price">Прайс-лист</a>
+				</div>
+				<div class="header__contacts">
+					<a href="tel:+74722421031" class="header__phone">+7 (4722) 42-10-31</a>
+					<div class="header__time">Ежедневно 9:00–20:00</div>
+					<ul class="header__socials">
+						<li><a href="#" target="_blank"><img src="img/tg.svg" alt="alt"></a></li>
+						<li><a href="#" target="_blank"><img src="img/max.svg" alt="alt"></a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="menu-dropdown">
+				<div class="container">
+					<div class="menu-dropdown__wrapper">
+						<div class="menu-dropdown__column">
+							<a href="#" class="menu-dropdown__title">Услуги</a>
+							<ul>
+								<li><a href="#">Лечение зубов</a></li>
+								<li><a href="#">Детская стоматология</a></li>
+								<li><a href="#">Имплантация</a></li>
+								<li><a href="#">Протезирование</a></li>
+								<li><a href="#">Виниры</a></li>
+								<li><a href="#">Ортодонтия</a></li>
+								<li><a href="#">Детская стоматология</a></li>
+								<li><a href="#">Профессиональная гигиена</a></li>
+								<li><a href="#">Отбеливание</a></li>
+								<li><a href="#">Лечение десен</a></li>
+							</ul>
+						</div>
+						<div class="menu-dropdown__column">
+							<a href="#" class="menu-dropdown__title">Поиск по клиническим случаям</a>
+							<ul>
+								<li><a href="#">Лечение зубов</a></li>
+								<li><a href="#">Детская стоматология</a></li>
+								<li><a href="#">Имплантация</a></li>
+								<li><a href="#">Протезирование</a></li>
+								<li><a href="#">Виниры</a></li>
+								<li><a href="#">Ортодонтия</a></li>
+								<li><a href="#">Детская стоматология</a></li>
+								<li><a href="#">Профессиональная гигиена</a></li>
+								<li><a href="#">Отбеливание</a></li>
+								<li><a href="#">Лечение десен</a></li>
+							</ul>
+						</div>
+						<div class="menu-dropdown__column">
+							<a href="#" class="menu-dropdown__title">О нас</a>
+							<ul>
+								<li><a href="#">Врачи</a></li>
+								<li><a href="#">О клинике</a></li>
+								<li><a href="#">Отзывы</a></li>
+								<li><a href="#">Акции</a></li>
+								<li><a href="#">Контакты</a></li>
+								<li><a href="#">Налоговый вычет</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="menu-overlay"></div>
+		</header>
+
+		<section class="page-sales">
+			<div class="container">
+				<ul class="breadcrumbs">
+					<li><a href="#">Стоматология</a></li>
+					<li>Актуальные акции и специальные предложения</li>
+				</ul>
+				<h1 class="title-section">Актуальные акции и специальные предложения</h1>
+				<div class="row row--main">
+					<div class="col-lg-4 col-md-6">
+						<div class="item-card">
+							<div class="item-card__sale"><strong>-30%</strong> *Не суммируется с остальными акциями клиники</div>
+							<div class="item-card__image">
+								<img src="img/card1.jpg" alt="alt">
+							</div>
+							<div class="item-card__content">
+								<a href="#" class="item-card__title">Чистка зубов + Airflow со скидкой</a>
+								<div class="item-card__text">
+									<p>Комбинированная чистка зубов убирает любой вид зубного налета. Избавим Вас от затрат на лечение в дальнейшем!  кариеса и заболеваний десен</p>
+								</div>
+								<div class="item-card__descr"><strong>Действует в:</strong> Реформа Премиум, Реформа Дент и Реформа Эксперт</div>
+								<div class="item-card__bottom">
+									<div class="item-card__prices">
+										<div class="price-old">5 500 р</div>
+										<div class="price-main">3 900 р</div>
+									</div>
+									<a href="#" class="btn-main">Записаться по акции</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-6">
+						<div class="item-card">
+							<div class="item-card__sale"><strong>-30%</strong> *Не суммируется с остальными акциями клиники</div>
+							<div class="item-card__image">
+								<img src="img/card2.jpg" alt="alt">
+							</div>
+							<div class="item-card__content">
+								<a href="#" class="item-card__title">Лечение зубов со скидкой</a>
+								<div class="item-card__text">
+									<p>Безболезненно пролечим зубы используя анестезию европейского качества. Без перелечивания</p>
+								</div>
+								<div class="item-card__descr"><strong>Действует в:</strong> Реформа Премиум, Реформа Дент и Реформа Эксперт</div>
+								<div class="item-card__bottom">
+									<div class="item-card__prices">
+										<div class="price-old">7 500 р</div>
+										<div class="price-main">4 500 р</div>
+									</div>
+									<a href="#" class="btn-main">Записаться по акции</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-6">
+						<div class="item-card">
+							<div class="item-card__sale"><strong>-30%</strong> *Не суммируется с остальными акциями клиники</div>
+							<div class="item-card__image">
+								<img src="img/card1.jpg" alt="alt">
+							</div>
+							<div class="item-card__content">
+								<a href="#" class="item-card__title">Чистка зубов + Airflow со скидкой</a>
+								<div class="item-card__text">
+									<p>Комбинированная чистка зубов убирает любой вид зубного налета. Избавим Вас от затрат на лечение в дальнейшем!  кариеса и заболеваний десен</p>
+								</div>
+								<div class="item-card__descr"><strong>Действует в:</strong> Реформа Премиум, Реформа Дент и Реформа Эксперт</div>
+								<div class="item-card__bottom">
+									<div class="item-card__prices">
+										<div class="price-old">5 500 р</div>
+										<div class="price-main">3 900 р</div>
+									</div>
+									<a href="#" class="btn-main">Записаться по акции</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row row--main">
+					<div class="col-xl-6">
+						<div class="item-card item-card--full">
+							<div class="item-card__sale"><strong>-30%</strong> *Не суммируется с остальными акциями клиники</div>
+							<div class="item-card__image">
+								<img src="img/card1.jpg" alt="alt">
+							</div>
+							<div class="item-card__content">
+								<a href="#" class="item-card__title">Чистка зубов + Airflow со скидкой</a>
+								<div class="item-card__text">
+									<p>Комбинированная чистка зубов убирает любой вид зубного налета. Избавим Вас от затрат на лечение в дальнейшем!  кариеса и заболеваний десен</p>
+								</div>
+								<div class="item-card__descr"><strong>Действует в:</strong> Реформа Премиум, Реформа Дент и Реформа Эксперт</div>
+								<div class="item-card__bottom">
+									<div class="item-card__prices">
+										<div class="price-old">5 500 р</div>
+										<div class="price-main">3 900 р</div>
+									</div>
+									<a href="#" class="btn-main">Записаться по акции</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-xl-6">
+						<div class="item-card item-card--full">
+							<div class="item-card__sale"><strong>-30%</strong> *Не суммируется с остальными акциями клиники</div>
+							<div class="item-card__image">
+								<img src="img/card1.jpg" alt="alt">
+							</div>
+							<div class="item-card__content">
+								<a href="#" class="item-card__title">Чистка зубов + Airflow со скидкой</a>
+								<div class="item-card__text">
+									<p>Комбинированная чистка зубов убирает любой вид зубного налета. Избавим Вас от затрат на лечение в дальнейшем!  кариеса и заболеваний десен</p>
+								</div>
+								<div class="item-card__descr"><strong>Действует в:</strong> Реформа Премиум, Реформа Дент и Реформа Эксперт</div>
+								<div class="item-card__bottom">
+									<div class="item-card__prices">
+										<div class="price-old">5 500 р</div>
+										<div class="price-main">3 900 р</div>
+									</div>
+									<a href="#" class="btn-main">Записаться по акции</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="bottom-button">
+					<a href="#" class="btn-main">
+						Подписаться на рассылку о новых акциях
+						<i class="fab fa-telegram"></i>
+					</a>
+				</div>
+			</div>
+		</section>
+
+		<section class="bonus-program">
+			<div class="container">
+				<h2 class="title-section">Бонусные программы</h2>
+				<div class="row row--main">
+					<div class="col-lg-6">
+						<div class="item-bonus">
+							<div class="item-bonus__title">Программа <span>«Семейное обслуживание»</span></div>
+							<div class="item-bonus__descr">Лечиться вместе - выгоднее. <br>Объедините карты родственников в один семейный счет.</div>
+							<div class="item-bonus__line">
+								<div class="item-bonus__content">
+									<div class="item-bonus__line-title">Уровень I</div>
+									<div class="item-bonus__line-descr">2 члена семьи</div>
+								</div>
+								<div class="item-bonus__value">скидка <span>5%</span></div>
+							</div>
+							<div class="item-bonus__line">
+								<div class="item-bonus__content">
+									<div class="item-bonus__line-title">Уровень  II</div>
+									<div class="item-bonus__line-descr">3 члена семьи</div>
+								</div>
+								<div class="item-bonus__value">скидка <span>7,5%</span></div>
+							</div>
+							<div class="item-bonus__line">
+								<div class="item-bonus__content">
+									<div class="item-bonus__line-title">Уровень  III</div>
+									<div class="item-bonus__line-descr">4 и более человек</div>
+									<div class="item-bonus__line-badge">Максимальная выгода</div>
+								</div>
+								<div class="item-bonus__value">скидка <span>10%</span></div>
+							</div>
+							<div class="item-bonus__subtitle">Условия:</div>
+							<div class="item-bonus__text"><strong>Срок действия:</strong> Скидка фиксируется до конца года с автоматической пролонгацией при посещении. <br>На что действует: На терапию, хирургию и эстетику во всех 4 филиалах</div>
+							<div class="item-bonus__bottom">
+								<a href="#" class="btn-main">Стать участником программы</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-6">
+						<div class="item-bonus">
+							<div class="item-bonus__title">Программа <span>«Корпоративным клиентам»</span></div>
+							<div class="item-bonus__descr">Специальные условия для сотрудников организаций-партнеров</div>
+							<div class="item-bonus__line">
+								<div class="item-bonus__content">
+									<div class="item-bonus__line-descr">терапия</div>
+									<div class="item-bonus__line-title">Лечение кариеса, каналов</div>
+								</div>
+								<div class="item-bonus__value">скидка <span>20%</span></div>
+							</div>
+							<div class="item-bonus__line">
+								<div class="item-bonus__content">
+									<div class="item-bonus__line-descr">Хирургия</div>
+									<div class="item-bonus__line-title">Удаление</div>
+								</div>
+								<div class="item-bonus__value">скидка <span>15%</span></div>
+							</div>
+							<div class="item-bonus__line">
+								<div class="item-bonus__content">
+									<div class="item-bonus__line-descr">ортопедия</div>
+									<div class="item-bonus__line-title">Коронки, протезы</div>
+								</div>
+								<div class="item-bonus__value">скидка <span>15%</span></div>
+							</div>
+							<div class="item-bonus__subtitle">Условия:</div>
+							<div class="item-bonus__text"><strong>Срок действия:</strong> Срок действия: Скидка фиксируется до конца года с автоматической пролонгацией при посещении. <br>На что действует: На терапию, хирургию и эстетику во всех 4 филиалах</div>
+							<div class="item-bonus__bottom">
+								<a href="#" class="btn-main">Стать корпоративным партнером</a>
+								<a href="#" class="btn-main btn-main--secondary">Узнать, есть ли моя компания в списке</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="installment">
+			<div class="container">
+				<div class="installment__main">
+					<h2 class="title-section">Рассрочка и доступное лечение без процентов</h2>
+					<div class="installment__text">
+						<ul>
+							<li>Рассрочка на все виды стоматологических услуг <strong>без переплат и скрытых условий.</strong></li>
+							<li>Получите качественное лечение уже сегодня — <strong>оплачивайте удобно, частями.</strong></li>
+						</ul>
+					</div>
+					<div class="installment__bottom">
+						<div class="installment__bottom-info">
+							<p><img src="img/ic_installment1.svg" alt="alt">Действует на все услуги</p>
+							<p><img src="img/ic_installment2.svg" alt="alt">Срок: 6 месяцев</p>
+							<p><img src="img/ic_installment3.svg" alt="alt">Решение по заявке: онлайн за 1 — 2 минуты</p>
+						</div>
+						<div class="installment__form">
+							<form>
+								<div class="consultation__line">
+									<div class="item-form">
+										<input type="tel" placeholder="Телефон" class="input-phone" inputmode="numeric" required>
+									</div>
+									<input type="submit" class="btn-main" value="Рассчитать стоимость лечения">
+								</div>
+								<div class="checkbox">
+									<label>
+										<input type="checkbox" checked required />
+										<span>Я даю согласие на обработку моих персональных данных ООО “_______” (ИНН: 000000000) в целях обработки заявки и обратной связи. Политика конфиденциальности — <a href="#">по ссылке</a>.</span>
+									</label>
+								</div>
+							</form>
+						</div>
+					</div>
+					<div class="installment__image">
+						<img src="img/installment.png" alt="alt">
+					</div>
+					<div class="installment__partners">
+						<div class="installment__partners-title">Партнёры: </div>
+						<div class="installment__partners-logo">
+							<img src="img/logo_partner1.png" alt="alt">
+						</div>
+						<div class="installment__partners-logo">
+							<img src="img/logo_partner2.png" alt="alt">
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<footer class="footer">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-4"> 
+						<a href="#" class="footer__logo">
+							<img src="img/logo2.svg" alt="alt">
+							<span>Сеть стоматологий полного цикла</span>
+						</a>
+						<div class="hidden-mobile">
+							<div class="footer__licensy">Лицензия на осуществление медицинской деятельности Лицезия № ЛО-31-01-002471 от 29.09.2017</div>
+							<div class="footer__descr">
+								<p>Имеются противопоказания,.</p>
+								<p>Необходима консультация специалиста.</p>
+								<br>
+								<p>Материалы на сайте носят информационный характер и не являются медицинской консультацией или публичной офертой.</p>
+							</div>
+							<ul class="socials-main">
+								<li><a href="#" target="_blank"><img src="img/tg.svg" alt="alt"></a></li>
+								<li><a href="#" target="_blank"><img src="img/max.svg" alt="alt"></a></li>
+							</ul>
+							<a href="#" class="btn-main btn-main-eye"><img src="img/eye.svg" alt="alt">Версия для слабовидящих</a>
+						</div>
+					</div>
+					<div class="col-lg-3">
+						<div class="footer__title">Услуги <i class="far fa-chevron-down"></i></div>
+						<div class="footer__content">
+							<ul class="footer__nav">
+								<li><a href="#">Лечение зубов</a></li>
+								<li><a href="#">Протезирование</a></li>
+								<li><a href="#">Хирургия</a></li>
+								<li><a href="#">Детская стоматология</a></li>
+								<li><a href="#">Лечение кариеса</a></li>
+								<li><a href="#">Компьютерная томография зубов</a></li>
+								<li><a href="#">Профгигиена</a></li>
+								<li><a href="#">Ортодонтия</a></li>
+							</ul>
+						</div>	
+					</div>
+					<div class="col-lg-3">
+						<div class="footer__title">Информация <i class="far fa-chevron-down"></i></div>
+						<div class="footer__content">
+							<ul class="footer__nav">
+								<li><a href="#">О клинике</a></li>
+								<li><a href="#">Врачи</a></li>
+								<li><a href="#">Акции</a></li>
+								<li><a href="#">Прайс</a></li>
+								<li><a href="#">Клинические случаи</a></li>
+								<li><a href="#">Отзывы</a></li>
+								<li><a href="#">Статьи</a></li>
+								<li><a href="#">Вакансии</a></li>
+								<li><a href="#">Контакты</a></li>
+								<li><a href="#">Нормативно-правовые документы</a></li>
+								<li><a href="#">Политика конфиденциальности</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-lg-2">
+						<a href="tel:+74812545224" class="footer__phone">+7 (4812) 54-52-24</a>
+						<p>Общий телефон</p>
+						<div class="footer__time">График работы: <br>09:00-20:00 без выходных</div>
+						<div class="footer__locations">
+							<p>г. Белгород, Мичурина 48а Стоматологический Центр <strong>(Реформа-Премиум)</strong></p>
+							<br>
+							<p>г. Белгород, Бульвар Юности 19а Стоматологический Центр <strong>(Реформа-Дент)</strong></p>
+							<br>
+							<p>пгт. Разумное, Добролюбова 5 Стоматологическая Клиника <strong>(Реформа-Kids)</strong></p>
+							<br>
+							<p>пгт. Разумное, Придорожная 26а Стоматологическая Клиника <strong>(Реформа-Эксперт)</strong></p>
+						</div>
+						<div class="show-mobile">
+							<div class="footer__licensy">Лицензия на осуществление медицинской деятельности Лицезия № ЛО-31-01-002471 от 29.09.2017</div>
+							<div class="footer__descr">
+								<p>Имеются противопоказания,.</p>
+								<p>Необходима консультация специалиста.</p>
+								<br>
+								<p>Материалы на сайте носят информационный характер и не являются медицинской консультацией или публичной офертой.</p>
+							</div>
+							<ul class="socials-main">
+								<li><a href="#" target="_blank"><img src="img/tg.svg" alt="alt"></a></li>
+								<li><a href="#" target="_blank"><img src="img/max.svg" alt="alt"></a></li>
+							</ul>
+							<a href="#" class="btn-main btn-main-eye"><img src="img/eye.svg" alt="alt">Версия для слабовидящих</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+		
+	</div>
+
+
+	<script src="libs/jquery/jquery-3.6.0.min.js"></script>
+	<script src="libs/fancybox-master/dist/jquery.fancybox.min.js"></script>
+	<script src="libs/datetimepicker/jquery.datetimepicker.full.min.js"></script>
+	<script src="libs/slick-1.5.9/slick/slick.min.js"></script>
+	<script src="libs/mask/jquery.maskedinput.js"></script>
+	<script src="js/common.js?ver=1.8"></script>
+	<!-- Yandex.Metrika counter --><!-- /Yandex.Metrika counter -->
+	<!-- Google Analytics counter --><!-- /Google Analytics counter -->
+</body>
+</html>

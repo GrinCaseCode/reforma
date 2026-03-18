@@ -24,9 +24,24 @@ $(document).ready(function () {
 		$(this).addClass("active");
 	});
 
+		/*input file*/
+	$("input[type='file']").change(function () {
+		var filename_text = $(this).parent().siblings(".name-upload");
+		var filename = $(this).val().replace(/.*\\/, "");
+		filename_text.html(filename);
+	});
+
 
 	 //datatime
-    $('#date-start').datetimepicker({
+$.datetimepicker.setLocale('ru');
+
+$('.item-form--date').each(function() {
+    var $parent = $(this);
+    
+    var $startDate = $parent.find('.data-start');
+    var $endDate = $parent.find('.data-end');
+
+    $startDate.datetimepicker({
         dayOfWeekStart: 1,
         format: 'd.m.Y',
         formatDate: 'd.m.Y',
@@ -34,14 +49,14 @@ $(document).ready(function () {
         closeOnDateSelect: true,
         scrollMonth: false,
         scrollInput: false,
-        onSelectDate: function (date) {
-            $('#date-end').datetimepicker({
-                minDate: date
+        onSelectDate: function(currentDateTime) {
+            $endDate.datetimepicker({
+                minDate: currentDateTime
             });
         }
     });
 
-    $('#date-end').datetimepicker({
+    $endDate.datetimepicker({
         dayOfWeekStart: 1,
         format: 'd.m.Y',
         formatDate: 'd.m.Y',
@@ -49,10 +64,9 @@ $(document).ready(function () {
         closeOnDateSelect: true,
         scrollMonth: false,
         scrollInput: false,
-        minDate: 0
+        minDate: 0 
     });
-
-    	$.datetimepicker.setLocale('ru');
+});
 
 
 	//billbord items animation
