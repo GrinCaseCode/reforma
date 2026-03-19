@@ -4593,3 +4593,6 @@ form {
 .filter-vacancies__line .item-form:nth-child(2) {
 	min-width: 490px;
 }
+.checkbox.checkbox--main label input:before {
+color: #92AF50;
+}
