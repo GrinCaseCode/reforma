@@ -1,0 +1,629 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html lang="ru" class="lt-ie9 lt-ie8 lt-ie7"><![endif]-->
+<!--[if IE 7]><html lang="ru" class="lt-ie9 lt-ie8"><![endif]-->
+<!--[if IE 8]><html lang="ru" class="lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="ru">
+<!--<![endif]-->
+<head>
+	<meta charset="utf-8" />
+	<title>Заголовок</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<meta name="format-detection" content="telephone=no" />
+	<link rel="shortcut icon" href="favicon.png" />
+	<link rel="stylesheet" href="libs/bootstrap/bootstrap-grid.css" />
+	<link rel="stylesheet" href="libs/fontawesome-free-5.12.0-web/css/all.min.css" />
+	<link rel="stylesheet" href="libs/fancybox-master/dist/jquery.fancybox.min.css" />
+	<link rel="stylesheet" href="libs/datetimepicker/jquery.datetimepicker.min.css" />
+	<link rel="stylesheet" href="libs/slick-1.5.9/slick/slick.css" />
+	<link rel="stylesheet" href="css/fonts.css" />
+	<link rel="stylesheet" href="css/main.css?ver=1.9" />
+	<link rel="stylesheet" href="css/media.css?ver=1.9" />
+</head>
+<body>
+
+	<div class="wrapper">
+
+		<header class="header header--page default">
+			<div class="container-fluid">
+				<div class="header__wrapper">
+					<div class="sandwich sandwich--mobile">
+						<div class="sw-topper"></div>
+						<div class="sw-bottom"></div>
+						<div class="sw-footer"></div>
+					</div>
+					<a href="#" class="logo">
+						<img src="img/logo.svg" alt="alt">
+						<span>Сеть стоматологий полного цикла</span>
+					</a>
+					<div class="location-main">
+						<div class="location-main__value">Белгород <i class="fas fa-chevron-down"></i></div>
+						<div class="location-main__descr">ул. Мичурина, 48А</div>
+					</div>
+					<div class="header__menu">
+						<div class="sandwich sandwich--menu">
+							<div class="sw-topper"></div>
+							<div class="sw-bottom"></div>
+							<div class="sw-footer"></div>
+						</div>
+						<nav class="menu">
+							<ul class="menu__list">
+								<li><a href="#">Лечение зубов</a></li>
+								<li><a href="#">Имплантация</a></li>
+								<li><a href="#">Протезирование</a></li>
+								<li><a href="#">Виниры</a></li>
+								<li><a href="#">Ортодонтия</a></li>
+								<li><a href="#">КТ зубов</a></li>
+								<li><a href="#">Портфолио</a></li>
+							</ul>
+						</nav>
+						<a href="#" class="header__price">Прайс-лист</a>
+					</div>
+					<div class="btn-sign-wrap">
+						<a href="#" class="btn-sign">
+							<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="32" height="32" rx="8" fill="#92AF50"/><path d="M9 16H23" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M17 10L23 16L17 22" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+							Онлайн запись
+						</a>
+					</div>
+					<div class="header__contacts">
+						<a href="tel:+74722421031" class="header__phone">+7 (4722) 42-10-31</a>
+						<div class="header__time">Ежедневно 9:00–20:00</div>
+						<ul class="header__socials">
+							<li><a href="#" target="_blank"><img src="img/tg.svg" alt="alt"></a></li>
+							<li><a href="#" target="_blank"><img src="img/max.svg" alt="alt"></a></li>
+						</ul>
+					</div>
+					<a href="tel:+74722421031" class="phone-mobile"><i class="fas fa-phone-alt"></i></a>
+				</div>
+			</div>
+			<div class="menu-mobile">
+				<div class="header__menu">
+					<nav class="menu">
+					<ul class="menu__list">
+						<li class="menu__haschild">
+							<a href="#">Услуги</a>
+							<i class="far fa-chevron-down"></i>
+							<ul>
+								<li><a href="#">Лечение зубов</a></li>
+								<li><a href="#">Детская стоматология</a></li>
+								<li><a href="#">Имплантация</a></li>
+								<li><a href="#">Протезирование</a></li>
+								<li><a href="#">Виниры</a></li>
+								<li><a href="#">Ортодонтия</a></li>
+								<li><a href="#">Детская стоматология</a></li>
+								<li><a href="#">Профессиональная гигиена</a></li>
+								<li><a href="#">Отбеливание</a></li>
+								<li><a href="#">Лечение десен</a></li>
+							</ul>
+						</li>
+						<li class="menu__haschild">
+							<a href="#">Поиск по клиническим случаям</a>
+							<i class="far fa-chevron-down"></i>
+							<ul>
+								<li><a href="#">Лечение зубов</a></li>
+								<li><a href="#">Детская стоматология</a></li>
+								<li><a href="#">Имплантация</a></li>
+								<li><a href="#">Протезирование</a></li>
+								<li><a href="#">Виниры</a></li>
+								<li><a href="#">Ортодонтия</a></li>
+								<li><a href="#">Детская стоматология</a></li>
+								<li><a href="#">Профессиональная гигиена</a></li>
+								<li><a href="#">Отбеливание</a></li>
+								<li><a href="#">Лечение десен</a></li>
+							</ul>
+						</li>
+						<li class="menu__haschild">
+							<a href="#">О нас</a>
+							<i class="far fa-chevron-down"></i>
+							<ul>
+								<li><a href="#">Врачи</a></li>
+								<li><a href="#">О клинике</a></li>
+								<li><a href="#">Отзывы</a></li>
+								<li><a href="#">Акции</a></li>
+								<li><a href="#">Контакты</a></li>
+								<li><a href="#">Налоговый вычет</a></li>
+							</ul>
+						</li>
+						<li><a href="#">Лечение зубов</a></li>
+						<li><a href="#">Имплантация</a></li>
+						<li><a href="#">Протезирование</a></li>
+						<li><a href="#">Виниры</a></li>
+						<li><a href="#">Ортодонтия</a></li>
+						<li><a href="#">КТ зубов</a></li>
+						<li><a href="#">Портфолио</a></li>
+					</ul>
+				</nav>
+				<a href="#" class="header__price">Прайс-лист</a>
+				</div>
+				<div class="header__contacts">
+					<a href="tel:+74722421031" class="header__phone">+7 (4722) 42-10-31</a>
+					<div class="header__time">Ежедневно 9:00–20:00</div>
+					<ul class="header__socials">
+						<li><a href="#" target="_blank"><img src="img/tg.svg" alt="alt"></a></li>
+						<li><a href="#" target="_blank"><img src="img/max.svg" alt="alt"></a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="menu-dropdown">
+				<div class="container">
+					<div class="menu-dropdown__wrapper">
+						<div class="menu-dropdown__column">
+							<a href="#" class="menu-dropdown__title">Услуги</a>
+							<ul>
+								<li><a href="#">Лечение зубов</a></li>
+								<li><a href="#">Детская стоматология</a></li>
+								<li><a href="#">Имплантация</a></li>
+								<li><a href="#">Протезирование</a></li>
+								<li><a href="#">Виниры</a></li>
+								<li><a href="#">Ортодонтия</a></li>
+								<li><a href="#">Детская стоматология</a></li>
+								<li><a href="#">Профессиональная гигиена</a></li>
+								<li><a href="#">Отбеливание</a></li>
+								<li><a href="#">Лечение десен</a></li>
+							</ul>
+						</div>
+						<div class="menu-dropdown__column">
+							<a href="#" class="menu-dropdown__title">Поиск по клиническим случаям</a>
+							<ul>
+								<li><a href="#">Лечение зубов</a></li>
+								<li><a href="#">Детская стоматология</a></li>
+								<li><a href="#">Имплантация</a></li>
+								<li><a href="#">Протезирование</a></li>
+								<li><a href="#">Виниры</a></li>
+								<li><a href="#">Ортодонтия</a></li>
+								<li><a href="#">Детская стоматология</a></li>
+								<li><a href="#">Профессиональная гигиена</a></li>
+								<li><a href="#">Отбеливание</a></li>
+								<li><a href="#">Лечение десен</a></li>
+							</ul>
+						</div>
+						<div class="menu-dropdown__column">
+							<a href="#" class="menu-dropdown__title">О нас</a>
+							<ul>
+								<li><a href="#">Врачи</a></li>
+								<li><a href="#">О клинике</a></li>
+								<li><a href="#">Отзывы</a></li>
+								<li><a href="#">Акции</a></li>
+								<li><a href="#">Контакты</a></li>
+								<li><a href="#">Налоговый вычет</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="menu-overlay"></div>
+		</header>
+
+		<section class="page-deduction">
+			<div class="container">
+				<ul class="breadcrumbs">
+					<li><a href="#">Стоматология</a></li>
+					<li>Вычет</li>
+				</ul>
+				<div class="about-deduction">
+					<h1 class="title-section">Правила выдачи справки об оплате медицинских услуг для представления в налоговые органы Российской Федерации</h1>
+					<p>1. Справка удостоверяет факт получения медицинской услуги и ее оплаты через кассу Учреждения за счет средств налогоплательщика.</p>
+					<p>2. Справка выдается по требованию налогоплательщика, производившего оплату медицинских услуг, оказанных ему лично, его супругу (супругу), его родителям, детям до 18 лет.</p>
+					<p>3. Справка выдается после оплаты медицинских услуг при наличии следующих документов: договор оказания медицинских услуг; кассовый чек на оплату медицинской услуги; документ, удостоверяющий личность пациента; паспорт налогоплательщика; ИНН налогоплательщика</p>
+					<p>4. Чеки по предоплате не включаются в состав справке об оплате медицинских услуг (поскольку услуга еще не оказана). При этом сумма предоплаты будет учтена после фактического оказания услуги, за которую предоплата была внесена.</p>
+					<p>5. Пациент (налогоплательщик) подает комплект копий документов согласно п.3 Правил для получения Справки: лично; заказным письмом на почтовый адрес </p>
+					<p>7. Срок изготовления Справки составляет до 10 (десяти) рабочих дней от момента подачи полного перечня документов согласно п.2 и п.3 Правил.</p>
+					<div class="about-deduction__hidden">
+						<p>1. Справка удостоверяет факт получения медицинской услуги и ее оплаты через кассу Учреждения за счет средств налогоплательщика.</p>
+						<p>2. Справка выдается по требованию налогоплательщика, производившего оплату медицинских услуг, оказанных ему лично, его супругу (супругу), его родителям, детям до 18 лет.</p>
+						<p>3. Справка выдается после оплаты медицинских услуг при наличии следующих документов: договор оказания медицинских услуг; кассовый чек на оплату медицинской услуги; документ, удостоверяющий личность пациента; паспорт налогоплательщика; ИНН налогоплательщика</p>
+						<p>4. Чеки по предоплате не включаются в состав справке об оплате медицинских услуг (поскольку услуга еще не оказана). При этом сумма предоплаты будет учтена после фактического оказания услуги, за которую предоплата была внесена.</p>
+						<p>5. Пациент (налогоплательщик) подает комплект копий документов согласно п.3 Правил для получения Справки: лично; заказным письмом на почтовый адрес </p>
+						<p>7. Срок изготовления Справки составляет до 10 (десяти) рабочих дней от момента подачи полного перечня документов согласно п.2 и п.3 Правил.</p>
+					</div>
+					<a href="#" class="btn-main btn-main--page">Показать весь текст</a>
+				</div>
+			</div>
+			<div class="apply-deduction">
+				<div class="container">
+					<div class="apply-deduction__head">
+						<div class="row align-items-center">
+							<div class="col-lg-7">
+								<h2 class="title-section">Подать заявку на налоговый вычет</h2>
+							</div>
+							<div class="col-lg-5">
+								<div class="title-min">Мы подготовим документы в течение 10 рабочих дней. Как только справка будет готова, мы с вами свяжемся</div>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-xl-9">
+							<div class="title-middle">Кто платил за лечение?</div>
+							<div class="row">
+								<div class="col-lg-4">
+									<div class="item-form">
+										<input type="text" placeholder="Фамилия" required>
+									</div>
+								</div>
+								<div class="col-lg-4">
+									<div class="item-form">
+										<input type="text" placeholder="Имя" required>
+									</div>
+								</div>
+								<div class="col-lg-4">
+									<div class="item-form">
+										<input type="text" placeholder="Отчество" required>
+									</div>
+								</div>
+								<div class="col-lg-4">
+									<div class="item-form">
+										<input type="text" placeholder="Дата рождения" required>
+									</div>
+								</div>
+								<div class="col-lg-4">
+									<div class="item-form">
+										<input type="text" placeholder="ИНН" required>
+									</div>
+								</div>
+								<div class="col-lg-4">
+									<div class="item-form">
+										<input type="text" placeholder="Серия и номер паспорта" required>
+									</div>
+								</div>
+								<div class="col-lg-4">
+									<div class="item-form item-form--date">
+										<div class="item-form__title">Период оплаты</div>
+										<div class="row">
+											<div class="col-6">
+												<input type="text" class="data-start" placeholder="С периода">
+											</div>
+											<div class="col-6">
+												<input type="text" class="data-end" placeholder="По">
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-4">
+									<div class="item-form">
+										<div class="item-form__title">Контактный телефон</div>
+										<input type="tel" placeholder="+7 (___) ___-__-__" class="input-phone" inputmode="numeric" required>
+									</div>
+								</div>
+								<div class="col-lg-4">
+									<div class="item-form">
+										<div class="item-form__title">Почта</div>
+										<input type="email" placeholder="Почта" inputmode="email" required>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="container">
+				<div class="title-middle">Кто лечился?</div>
+				<ul class="tabs tabs--deduction">
+					<li class="active"><a href="#tab_deduction1">Я лечился сам <br><span>(Я плательщик и пациент)</span></a></li>
+					<li><a href="#tab_deduction2">Мой родственник <br><span>(Ребенок, Супруг, Родитель)</span></a></li>
+				</ul>
+				<div class="tab-container">
+					<div class="tab-pane" id="tab_deduction1">
+						<div class="title-small">Данные пациента</div>
+						<div class="row">
+							<div class="col-xl-10">
+								<div class="row">
+									<div class="col-lg-4">
+										<div class="item-form">
+											<input type="text" placeholder="Фамилия" required>
+										</div>
+									</div>
+									<div class="col-lg-4">
+										<div class="item-form">
+											<input type="text" placeholder="Имя" required>
+										</div>
+									</div>
+									<div class="col-lg-4">
+										<div class="item-form">
+											<input type="text" placeholder="Отчество" required>
+										</div>
+									</div>
+									<div class="col-lg-4">
+										<div class="item-form">
+											<input type="text" placeholder="Дата рождения" required>
+										</div>
+									</div>
+									<div class="col-lg-4">
+										<div class="item-form">
+											<input type="text" placeholder="ИНН если есть" required>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="title-small">Степень родства с плательщиком</div>
+						<div class="checkbox checkbox--main">
+							<label>
+								<input type="radio" checked name="radio1"/>
+								<span>Сын</span>
+							</label>
+						</div>
+						<div class="checkbox checkbox--main">
+							<label>
+								<input type="radio" name="radio1"/>
+								<span>Дочь</span>
+							</label>
+						</div>
+						<div class="checkbox checkbox--main">
+							<label>
+								<input type="radio" name="radio1"/>
+								<span>Жена</span>
+							</label>
+						</div>
+						<div class="checkbox checkbox--main">
+							<label>
+								<input type="radio" name="radio1"/>
+								<span>Муж</span>
+							</label>
+						</div>
+						<div class="checkbox checkbox--main">
+							<label>
+								<input type="radio" name="radio1"/>
+								<span>Мать</span>
+							</label>
+						</div>
+						<div class="checkbox checkbox--main">
+							<label>
+								<input type="radio" name="radio1"/>
+								<span>Отец</span>
+							</label>
+						</div>
+						<br>
+						<div class="title-small">Документ удостоверяющий личность</div>
+						<div class="checkbox checkbox--main">
+							<label>
+								<input type="radio" checked name="radio2"/>
+								<span>Паспорт</span>
+							</label>
+						</div>
+						<div class="checkbox checkbox--main">
+							<label>
+								<input type="radio" name="radio2"/>
+								<span>Свидетельство о рождении</span>
+							</label>
+						</div>
+						<div class="row">
+							<div class="col-xl-10">
+								<br>
+								<div class="row">
+									<div class="col-xl-8 col-lg-10">
+										<div class="row">
+											<div class="col-md-6">
+												<div class="item-form">
+													<input type="text" placeholder="Серия и номер паспорта" required>
+												</div>
+											</div>
+											<div class="col-md-6">
+												<div class="item-form">
+													<input type="text" placeholder="Дата выдачи паспорта" required>
+												</div>
+											</div>
+											<div class="col-12">
+												<div class="item-form">
+													<input type="text" placeholder="Адрес регистрации" required>
+												</div>
+											</div>
+											<div class="col-12">
+												<div class="item-form">
+													<input type="text" placeholder="Адрес фактического проживания" required>
+												</div>
+											</div>
+											<div class="col-md-6">
+												<div class="item-form item-form--date">
+													<div class="item-form__title">Период оплаты</div>
+													<div class="row">
+														<div class="col-6">
+															<input type="text" class="data-start" placeholder="С периода">
+														</div>
+														<div class="col-6">
+															<input type="text" class="data-end" placeholder="По">
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="col-md-6">
+												<div class="item-form">
+													<div class="item-form__title">Контактный телефон</div>
+													<input type="tel" placeholder="+7 (___) ___-__-__" class="input-phone" inputmode="numeric" required>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="tab-pane" id="tab_deduction2">
+						2
+					</div>
+				</div>
+				<div class="deduction-filials">
+					<div class="title-middle">Выберите филиал, где проходило лечение:</div>
+					<div class="checkbox checkbox--main">
+						<label>
+							<input type="radio" checked name="radio_filial"/>
+							<span>г. Белгород, Мичурина 48а (Реформа-Премиум)</span>
+						</label>
+					</div>
+					<div class="checkbox checkbox--main">
+						<label>
+							<input type="radio" name="radio_filial"/>
+							<span> г. Белгород, Бульвар Юности 19а (Реформа-Дент)</span>
+						</label>
+					</div>
+					<div class="checkbox checkbox--main">
+						<label>
+							<input type="radio" name="radio_filial"/>
+							<span>пгт. Разумное, ул. Добролюбова 5 (Реформа-Kids)</span>
+						</label>
+					</div>
+					<div class="checkbox checkbox--main">
+						<label>
+							<input type="radio" name="radio_filial"/>
+							<span>пгт. Разумное, Придорожная 26а (Реформа-Эксперт)</span>
+						</label>
+					</div>
+				</div>
+				<div class="deduction-note">
+					<div class="row">
+						<div class="col-xl-5 col-lg-7">
+							<div class="item-form item-form--page">
+								<div class="item-form__title">Примечание (для доп. сообщений)</div>
+								<textarea placeholder="Сообщение"></textarea>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="deduction-serts">
+					<div class="row">
+						<div class="col-xl-6 col-lg-8">
+							<div class="title-middle">Получали ли Вы в текущем году подобные справки за услуги оказанные в наших филиалах?</div>
+							<div class="checkbox checkbox--main">
+								<label>
+									<input type="radio" checked name="radio_serts"/>
+									<span>Да</span>
+								</label>
+							</div>
+							<div class="checkbox checkbox--main">
+								<label>
+									<input type="radio" name="radio_serts"/>
+									<span>Нет</span>
+								</label>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="deduction-upload">
+					<div class="title-small">Прикрепить документы</div>
+					<div class="file-upload">
+						<label><input type="file" name="file">
+							<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#clip0_582_4235)"><path d="M14 13.5V8C14 6.93913 13.5786 5.92172 12.8284 5.17157C12.0783 4.42143 11.0609 4 10 4C8.93913 4 7.92172 4.42143 7.17157 5.17157C6.42143 5.92172 6 6.93913 6 8V13.5C6 15.2239 6.68482 16.8772 7.90381 18.0962C9.12279 19.3152 10.7761 20 12.5 20C14.2239 20 15.8772 19.3152 17.0962 18.0962C18.3152 16.8772 19 15.2239 19 13.5V4H21V13.5C21 15.7543 20.1045 17.9163 18.5104 19.5104C16.9163 21.1045 14.7543 22 12.5 22C10.2457 22 8.08365 21.1045 6.48959 19.5104C4.89553 17.9163 4 15.7543 4 13.5V8C4 6.4087 4.63214 4.88258 5.75736 3.75736C6.88258 2.63214 8.4087 2 10 2C11.5913 2 13.1174 2.63214 14.2426 3.75736C15.3679 4.88258 16 6.4087 16 8V13.5C16 14.4283 15.6313 15.3185 14.9749 15.9749C14.3185 16.6313 13.4283 17 12.5 17C11.5717 17 10.6815 16.6313 10.0251 15.9749C9.36875 15.3185 9 14.4283 9 13.5V8H11V13.5C11 13.8978 11.158 14.2794 11.4393 14.5607C11.7206 14.842 12.1022 15 12.5 15C12.8978 15 13.2794 14.842 13.5607 14.5607C13.842 14.2794 14 13.8978 14 13.5Z" fill="white"/></g><defs><clipPath id="clip0_582_4235"><rect width="24" height="24" fill="white"/></clipPath></defs></svg>
+							Загрузить файл
+						</label>
+						<div class="name-upload"></div>
+					</div>
+				</div>
+				<div class="checkbox checkbox--main">
+					<label>
+						<input type="checkbox" checked />
+						<span>Копии договора и чеков, подтверждающих произведенные расходы, прилагаю, с правилами предоставления справки ознакомлен.</span>
+					</label>
+				</div>
+				<div class="deduction-sent">
+					<button class="btn-main">Отправить</button>
+				</div>
+				<div class="checkbox checkbox--main">
+					<label>
+						<input type="checkbox" checked required required />
+						<span>Я согласен(-а) с политикой конфиденциальности сайта</span>
+					</label>
+				</div>
+			</div>
+		</section>
+
+		<footer class="footer">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-4"> 
+						<a href="#" class="footer__logo">
+							<img src="img/logo2.svg" alt="alt">
+							<span>Сеть стоматологий полного цикла</span>
+						</a>
+						<div class="hidden-mobile">
+							<div class="footer__licensy">Лицензия на осуществление медицинской деятельности Лицезия № ЛО-31-01-002471 от 29.09.2017</div>
+							<div class="footer__descr">
+								<p>Имеются противопоказания,.</p>
+								<p>Необходима консультация специалиста.</p>
+								<br>
+								<p>Материалы на сайте носят информационный характер и не являются медицинской консультацией или публичной офертой.</p>
+							</div>
+							<ul class="socials-main">
+								<li><a href="#" target="_blank"><img src="img/tg.svg" alt="alt"></a></li>
+								<li><a href="#" target="_blank"><img src="img/max.svg" alt="alt"></a></li>
+							</ul>
+							<a href="#" class="btn-main btn-main-eye"><img src="img/eye.svg" alt="alt">Версия для слабовидящих</a>
+						</div>
+					</div>
+					<div class="col-lg-3">
+						<div class="footer__title">Услуги <i class="far fa-chevron-down"></i></div>
+						<div class="footer__content">
+							<ul class="footer__nav">
+								<li><a href="#">Лечение зубов</a></li>
+								<li><a href="#">Протезирование</a></li>
+								<li><a href="#">Хирургия</a></li>
+								<li><a href="#">Детская стоматология</a></li>
+								<li><a href="#">Лечение кариеса</a></li>
+								<li><a href="#">Компьютерная томография зубов</a></li>
+								<li><a href="#">Профгигиена</a></li>
+								<li><a href="#">Ортодонтия</a></li>
+							</ul>
+						</div>	
+					</div>
+					<div class="col-lg-3">
+						<div class="footer__title">Информация <i class="far fa-chevron-down"></i></div>
+						<div class="footer__content">
+							<ul class="footer__nav">
+								<li><a href="#">О клинике</a></li>
+								<li><a href="#">Врачи</a></li>
+								<li><a href="#">Акции</a></li>
+								<li><a href="#">Прайс</a></li>
+								<li><a href="#">Клинические случаи</a></li>
+								<li><a href="#">Отзывы</a></li>
+								<li><a href="#">Статьи</a></li>
+								<li><a href="#">Вакансии</a></li>
+								<li><a href="#">Контакты</a></li>
+								<li><a href="#">Нормативно-правовые документы</a></li>
+								<li><a href="#">Политика конфиденциальности</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-lg-2">
+						<a href="tel:+74812545224" class="footer__phone">+7 (4812) 54-52-24</a>
+						<p>Общий телефон</p>
+						<div class="footer__time">График работы: <br>09:00-20:00 без выходных</div>
+						<div class="footer__locations">
+							<p>г. Белгород, Мичурина 48а Стоматологический Центр <strong>(Реформа-Премиум)</strong></p>
+							<br>
+							<p>г. Белгород, Бульвар Юности 19а Стоматологический Центр <strong>(Реформа-Дент)</strong></p>
+							<br>
+							<p>пгт. Разумное, Добролюбова 5 Стоматологическая Клиника <strong>(Реформа-Kids)</strong></p>
+							<br>
+							<p>пгт. Разумное, Придорожная 26а Стоматологическая Клиника <strong>(Реформа-Эксперт)</strong></p>
+						</div>
+						<div class="show-mobile">
+							<div class="footer__licensy">Лицензия на осуществление медицинской деятельности Лицезия № ЛО-31-01-002471 от 29.09.2017</div>
+							<div class="footer__descr">
+								<p>Имеются противопоказания,.</p>
+								<p>Необходима консультация специалиста.</p>
+								<br>
+								<p>Материалы на сайте носят информационный характер и не являются медицинской консультацией или публичной офертой.</p>
+							</div>
+							<ul class="socials-main">
+								<li><a href="#" target="_blank"><img src="img/tg.svg" alt="alt"></a></li>
+								<li><a href="#" target="_blank"><img src="img/max.svg" alt="alt"></a></li>
+							</ul>
+							<a href="#" class="btn-main btn-main-eye"><img src="img/eye.svg" alt="alt">Версия для слабовидящих</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+		
+	</div>
+
+
+	<script src="libs/jquery/jquery-3.6.0.min.js"></script>
+	<script src="libs/fancybox-master/dist/jquery.fancybox.min.js"></script>
+	<script src="libs/datetimepicker/jquery.datetimepicker.full.min.js"></script>
+	<script src="libs/slick-1.5.9/slick/slick.min.js"></script>
+	<script src="libs/mask/jquery.maskedinput.js"></script>
+	<script src="js/common.js?ver=1.9"></script>
+	<!-- Yandex.Metrika counter --><!-- /Yandex.Metrika counter -->
+	<!-- Google Analytics counter --><!-- /Google Analytics counter -->
+</body>
+</html>

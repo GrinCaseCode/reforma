@@ -1313,6 +1313,91 @@
         font-size: 18px;
         padding: 30px;
     }
+    .page-deduction .item-form input {
+        height: 52px;
+        font-size: 14px;
+    }
+    .item-form--date input {
+        background-size: 21px auto;
+        background-position: center right 12px;
+    }
+    .tabs--deduction a span {
+        font-size: 14px;
+    }
+    .checkbox.checkbox--main {
+        font-size: 15px;
+    }
+    .item-form textarea {
+        height: 155px;
+        padding-top: 15px;
+    }
+    .file-upload label {
+        gap: 8px;
+        height: 47px;
+        padding: 0 30px;
+        font-size: 14px;
+        border-radius: 14px;
+    }
+    .file-upload svg {
+        width: 21px;
+    }
+    .deduction-sent {
+        margin-top: 33px;
+    }
+    .deduction-sent .btn-main {
+        min-width: 320px;
+    }
+    .billbord-vacancies .title-section span {
+        font-size: 58px;
+    }
+    .billbord-vacancies {
+        font-size: 18px;
+        padding-top: 20px;
+    }
+    .item-vacancy__title {
+        font-size: 29px;
+    }
+    .item-vacancy {
+        padding: 22px;
+        font-size: 19px;
+    }
+    .item-vacancy__city {
+        font-size: 18px;
+    }
+    .salary-vacancy__value {
+        font-size: 27px;
+    }
+    .item-vacancy__content {
+        padding: 18px 0;
+        margin-bottom: 36px;
+    }
+    .item-vacancy__bottom {
+        padding-top: 23px;
+    }
+    .item-vacancy .btn-main {
+        height: 48px;
+        min-width: 200px;
+        font-size: 15px;
+    }
+    .item-vacancy__content p {
+        margin-bottom: 24px;
+    }
+    .page-vacancies {
+        padding-top: 45px;
+        padding-bottom: 56px;
+        margin: 0 15px;
+        margin-bottom: 65px;
+        margin-top: 75px;
+    }
+    .filter-vacancies__line .item-form:nth-child(1) {
+        min-width: 255px;
+    }
+    .filter-vacancies__line .item-form:nth-child(2) {
+        min-width: 455px;
+    }
+    .item-vacancy__head {
+        margin-bottom: 30px;
+    }
 }
 
 @media only screen and (max-width : 1570px) {
@@ -2611,6 +2696,88 @@
     .reviews.reviews--page {
         padding-bottom: 70px;
     }
+    .about-deduction {
+        font-size: 16px;
+        padding: 26px;
+    }
+    .item-form__title {
+        font-size: 14px;
+        margin-bottom: 12px;
+    }
+    .apply-deduction {
+        padding-top: 26px;
+        padding-bottom: 40px;
+        margin: 0 15px;
+        margin-bottom: 28px;
+        margin-top: 40px;
+    }
+    .tabs--deduction a span {
+        font-size: 13px;
+    }
+    .page-deduction .item-form {
+        margin-bottom: 20px;
+    }
+    .page-deduction .item-form input {
+        height: 48px;
+        font-size: 13px;
+    }
+    .item-form--date input {
+        background-size: 19px auto;
+        background-position: center right 10px;
+    }
+    .checkbox.checkbox--main {
+        font-size: 14px;
+    }
+    .item-form textarea {
+        height: 145px;
+        padding-top: 15px;
+    }
+    .page-deduction {
+        padding-bottom: 70px;
+    }
+    .deduction-sent .btn-main {
+        min-width: 280px;
+    }
+    .about-deduction .btn-main {
+        height: 46px;
+        font-size: 14px;
+    }
+    .billbord-vacancies .title-section span {
+        font-size: 54px;
+    }
+    .billbord-vacancies {
+        font-size: 16px;
+    }
+    .billbord-vacancies__content ul li {
+        margin-bottom: 24px;
+    }
+    .page-vacancies {
+        padding-top: 42px;
+        padding-bottom: 51px;
+        margin: 0 15px;
+        margin-bottom: 55px;
+        margin-top: 62px;
+    }
+    .item-vacancy__title {
+        font-size: 26px;
+    }
+    .item-vacancy__head {
+        margin-bottom: 27px;
+    }
+    .item-vacancy__city {
+        font-size: 16px;
+    }
+    .item-vacancy {
+        padding: 20px;
+        font-size: 17px;
+    }
+    .salary-vacancy__value {
+        font-size: 25px;
+    }
+    .item-vacancy__content {
+        padding: 16px 0;
+        margin-bottom: 26px;
+    }
 }
 
 @media only screen and (max-width : 1420px) {
@@ -3856,6 +4023,38 @@
     .reviews.reviews--page {
         padding-bottom: 60px;
     }
+    .item-form textarea {
+        height: 135px;
+        padding-top: 15px;
+    }
+    .about-deduction {
+        font-size: 14px;
+        padding: 24px;
+    }
+    .billbord-vacancies {
+        font-size: 14px;
+    }
+    .billbord-vacancies .title-section span {
+        font-size: 51px;
+    }
+    .item-vacancy {
+        padding: 18px;
+        font-size: 15px;
+    }
+    .salary-vacancy__value {
+        font-size: 22px;
+    }
+    .item-vacancy .btn-main {
+        height: 46px;
+        min-width: 185px;
+        font-size: 14px;
+    }
+    .item-vacancy__title {
+        font-size: 24px;
+    }
+    .item-vacancy__city {
+        font-size: 14px;
+    }
 }
 
 /* Large Devices, Wide Screens */
@@ -3994,6 +4193,37 @@
     }
     .single-doctor {
         padding-bottom: 45px;
+    }
+    .billbord-vacancies .title-section span {
+        font-size: 44px;
+    }
+    .billbord-vacancies .title-section {
+        margin-bottom: 22px;
+    }
+    .billbord-vacancies__buttons .btn-main {
+        padding: 0 10px;
+    }
+    .billbord-vacancies__buttons {
+        padding-top: 10px;
+    }
+    .billbord-vacancies {
+        font-size: 12px;
+    }
+    .billbord-vacancies__content ul li {
+        margin-bottom: 15px;
+    }
+    .billbord-vacancies__image {
+        margin-top: 30px;
+    }
+    .item-vacancy__title {
+        font-size: 22px;
+    }
+    .page-vacancies {
+        padding-top: 36px;
+        padding-bottom: 46px;
+        margin: 0 15px;
+        margin-bottom: 45px;
+        margin-top: 45px;
     }
 }
 
@@ -5794,6 +6024,92 @@
     .reviews.reviews--page {
         padding-bottom: 50px;
     }
+    .about-deduction {
+        padding: 20px 15px;
+        border-radius: 20px;
+    }
+    .about-deduction .title-section {
+        margin-bottom: 22px;
+    }
+    .about-deduction .btn-main {
+        margin-top: 10px;
+    }
+    .apply-deduction__head .title-section {
+        margin-bottom: 15px;
+    }
+    .apply-deduction__head {
+        margin-bottom: 20px;
+    }
+    .page-deduction .item-form {
+        margin-bottom: 15px;
+    }
+    .tabs.tabs--deduction a span {
+        font-size: 10px;
+    }
+    .tabs.tabs--deduction a {
+        font-size: 15px;
+    }
+    .page-deduction .tab-container .title-small {
+        margin-bottom: 16px;
+    }
+    .page-deduction .tab-container {
+        margin-bottom: 35px;
+    }
+    .deduction-filials {
+        margin-bottom: 25px;
+    }
+    .item-form textarea {
+        height: 135px;
+        padding-top: 15px;
+    }
+    .deduction-sent .btn-main {
+        width: 100%;
+        min-width: initial;
+    }
+    .page-deduction {
+        padding-bottom: 50px;
+    }
+    .billbord-vacancies {
+        margin-top: 134px;
+    }
+    .billbord-vacancies .title-section span {
+        font-size: 38px;
+    }
+    .billbord-vacancies__buttons {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .billbord-vacancies__buttons .btn-main {
+        height: 56px;
+        padding: 0 40px;
+        width: 100%;
+    }
+    .billbord-vacancies__buttons .btn-main.btn-main--secondary {
+        border-width: 2px;
+    }
+    .filter-vacancies__line .item-form:nth-child(1),
+    .filter-vacancies__line .item-form:nth-child(2) {
+        min-width: initial;
+    }
+    .filter-vacancies__line .item-form {
+        width: 100%;
+    }
+    .item-form select {
+        padding-right: 35px;
+    }
+    .item-vacancy {
+        font-size: 14px;
+        border-radius: 20px;
+    }
+    .item-vacancy .btn-main {
+        width: 100%;
+        min-width: initial;
+    }
+    .page-vacancies {
+        margin: 35px 8px;
+        padding: 20px 0px;
+        margin-top: 40px;
+    }
 }
 
 /* Small Devices, Tablets */
@@ -5980,6 +6296,9 @@
         background: #92af50;
         border-color: #92af50;
     }
+    .btn-main.btn-main--dark:hover {
+        background: #393939;
+    }
 }
 
 /*mobile hovers*/
@@ -6100,5 +6419,8 @@
     }
     .nav-page a:active {
         background: #596243;
+    }
+    .btn-main.btn-main--dark:active {
+        background: #393939;
     }
 }
