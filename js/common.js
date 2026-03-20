@@ -1,5 +1,16 @@
 $(document).ready(function () {
 
+	//open thanks modal
+	$('form input[type="submit"]').click(function () {
+		$.fancybox.open({
+			src  : '#modal-thanks',
+			type: 'inline',
+			touch: false
+		});
+	});
+
+
+
 	//прилипающие меню
 	var $menu = $(".header");
 	$(window).scroll(function () {

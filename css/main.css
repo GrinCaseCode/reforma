@@ -4596,3 +4596,66 @@ form {
 .checkbox.checkbox--main label input:before {
 color: #92AF50;
 }
+
+.modal-block {
+	display: none;
+	background: transparent;
+	padding: 0;
+}
+.modal-thanks {
+	width: 760px;
+	font-size: 20px;
+	padding: 44px 70px;
+	padding-bottom: 53px;
+	border-radius: 28px;
+	max-width: 100%;
+	line-height: 140%;
+	color: #fff;
+	text-align: center;
+background: linear-gradient(280.14deg, #647B32 8.48%, #758C40 40.14%, #92AF50 98.37%);
+}
+.modal-thanks__title {
+	font-size: 36px;
+	margin-bottom: 16px;
+line-height: 140%;
+text-transform: uppercase;
+font-family: 'Tenor Sans';
+}
+.modal-thanks__descr {
+	margin-bottom: 50px;
+font-weight: 500;
+}
+.modal-thanks__subtitle {
+font-size: 30px;
+padding-top: 10px;
+margin-bottom: 17px;
+line-height: 140%;
+font-weight: 600;
+}
+.advantages-thanks {
+	margin-bottom: 59px;
+	font-weight: 500;
+	gap: 16px;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+}
+.advantages-thanks li::before {
+	position: relative;
+	display: block;
+	content: " ";
+	width: 24px;
+	height: 24px;
+	margin: 0 auto;
+	margin-bottom: 14px;
+	background-image: url(../img/check_li.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+}
+.fancybox-slide--html .modal-thanks + .fancybox-close-small {
+    color: #fff;
+    padding: 6px;
+    right: 8px;
+    top: 8px;
+    opacity: 1;
+}
